@@ -2,24 +2,50 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .titulo-principal  
+      .titulo-principal__numero.bg01
+        span.text-white 3
+      h1 Elaboración de informe de riesgo
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-down") 
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        figure.mb-4.flex-end
+          img.img100(src='@/assets/curso/tema1/img07.svg')
+        p El informe de los riesgos a los que está sometido el sistema de tratamiento y distribución de agua potable debe ser elaborado anualmente, como un control interno por la empresa prestadora del servicio, con base en los datos obtenidos del cálculo de los indicadores.
+        figure.mb-2.flex-end
+          img.img100(src='@/assets/curso/tema1/img07.svg')
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
+    p.mt-5 Dicho informe debe contener como mínimo los siguientes ítems:
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Figura 3
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
+    p <em>Ítems necesarios para el informe de riesgos.</em>
 
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-md-6.mb-5.mb-md-0
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Introducción:") presentación del propósito del informe de resultados y a quiénes va dirigido.
+          
+          p.text-small(numero="2" titulo="Objetivos:") presentación de los objetivos a alcanzar con el informe de riesgo.
+          
+          p.text-small(numero="3" titulo="IRCA:") presentación de los datos empleados para la obtención del IRCA, su proceso de cálculo y resultados.
+          
+          p.text-small(numero="4" titulo="IRABAm:") presentación de los datos empleados para la obtención del IRABAm, su proceso de cálculo y resultados.
+
+          p.text-small(numero="2" titulo="IRABApp:") presentación de los datos empleados para la obtención del IRABApp, su proceso de cálculo y resultados.
+          
+          p.text-small(numero="3" titulo="Conclusiones:") presentación de las conclusiones según los resultados obtenidos de cada indicador y acordes con los objetivos planteados.
+          
+          p.text-small(numero="4" titulo="Anexos:") inclusión de los documentos que se consideren importantes como anexos, para complementar la información obtenida (resultados de laboratorio, catastro de redes, planos de redes de distribución, catastro de usuarios/suscriptores del servicio, datos de los tipos de distribución, descripción de procesos de tratamiento de agua en la planta, descripción de dotación del laboratorio de la planta, certificaciones de trabajadores de la empresa prestadora y los que se consideren necesarios).
+      .col-md-5
+        figure
+         img.mb-4(src='@/assets/curso/tema3/img02.svg' data-aos="fade-left")  
+        figure.mb-2.flex-end
+          img.img100(src='@/assets/curso/tema1/img07.svg')
 
 </template>
 
