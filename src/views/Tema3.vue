@@ -11,12 +11,8 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        figure.mb-4.flex-end
-          img.img100(src='@/assets/curso/tema1/img07.svg')
+      .bloque-texto-g__texto.p-5
         p El informe de los riesgos a los que está sometido el sistema de tratamiento y distribución de agua potable debe ser elaborado anualmente, como un control interno por la empresa prestadora del servicio, con base en los datos obtenidos del cálculo de los indicadores.
-        figure.mb-2.flex-end
-          img.img100(src='@/assets/curso/tema1/img07.svg')
 
     p.mt-5 Dicho informe debe contener como mínimo los siguientes ítems:
 

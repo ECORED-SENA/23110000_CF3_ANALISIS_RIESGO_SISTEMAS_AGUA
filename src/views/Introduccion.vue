@@ -9,10 +9,9 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-0 Bienvenido al componente formativo Protocolos de gestión de riesgo en sistemas de tratamiento. A continuación, conocerá los temas que se tratarán a lo largo del mismo. 
-    p.etiqueta ¡Muchos éxitos en su proceso de aprendizaje!
-    figure.mb-4.flex-end
-      img.img1084.mb-4(src='@/assets/curso/introduccion/img01.svg')
+    p.mb-0 Bienvenido al componente formativo <b>Protocolos de gestión de riesgo en sistemas de tratamiento.</b> A continuación, conocerá los temas que se tratarán a lo largo del mismo. 
+    .contenedor--texto-right-green9
+      p.mb-5 ¡Muchos éxitos en su proceso de aprendizaje!
 
     figure.mb-5
       .video
