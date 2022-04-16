@@ -33,7 +33,7 @@
 
     .row.justify-content-center.align-content-center.mb-5
       .col-lg-5.align-self-center
-        figure(data-aos="zoom-in-down")
+        figure(data-aos="zoom-out-right")
           img(src="@/assets/curso/tema1/img09.svg")       
       .col-lg-7.align-self-center
           .contenedor--texto-right-gray1.mb-4.mb-lg-0

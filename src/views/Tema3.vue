@@ -7,7 +7,7 @@
         span.text-white 3
       h1 Elaboración de informe de riesgo
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-down") 
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-out-right") 
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.svg')})`}"
       )
@@ -40,8 +40,6 @@
       .col-md-5
         figure
          img.mb-4(src='@/assets/curso/tema3/img02.svg' data-aos="fade-left")  
-        figure.mb-2.flex-end
-          img.img100(src='@/assets/curso/tema1/img07.svg')
 
 </template>
 
