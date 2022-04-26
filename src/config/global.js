@@ -279,6 +279,42 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Adriana Maria Bustamante Cataño',
+        cargo: 'Profesional de diseño y producción curricular',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
+        cargo:
+          'Instructora (EPC) – Líder desarrollo curricular Servicios Personales',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Luz Adriana Cárdenas González',
+        cargo: 'Experta temática red salud y servicios personales.',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Cristina Marcela Gallego Arango',
+        cargo: 'Instructora área de servicios personales.',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Cristian Metaute Medina',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Metodóloga para la formación virtual',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
     ],
     desarrolloProducto: [
       {
@@ -288,46 +324,71 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
+        nombre: '',
         cargo: 'Soporte organizacional',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Yerson Fabian Zarate Saavedra',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Marcia Elizabeth Solano Alvarez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
