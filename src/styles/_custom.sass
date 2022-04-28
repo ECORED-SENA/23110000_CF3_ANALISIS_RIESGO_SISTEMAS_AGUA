@@ -410,12 +410,20 @@
 .tarjeta--gris 
     background-color: #D8E0E9
 
-.position02
-  position: absolute
-  bottom: 0%
-  top: -133px
-  max-width: 360px
-  left: 1%
+.bg_fondo2
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 6rem
+    left: 10%
+    width: calc(100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema2/img42.svg")
+    background-repeat: no-repeat
 
 .imgcenter
   display: flex
@@ -424,11 +432,6 @@
 
 .banfondo1
   background-image: url("../assets/curso/tema2/img48.svg")
-  background-size: cover
-  background-repeat: no-repeat
-
-.banfondo2
-  background-image: url("../assets/curso/tema2/img42.svg")
   background-size: cover
   background-repeat: no-repeat
 

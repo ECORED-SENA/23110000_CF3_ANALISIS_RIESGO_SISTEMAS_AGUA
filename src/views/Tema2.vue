@@ -446,13 +446,13 @@
           figure.ps-5.ms-5
             img(src='@/assets/curso/tema2/img34.svg', alt='Texto que describa la imagen' style="width: 336px")
 
-    .banfondo2.pt-5
+    .bg_fondo2
       .row.justify-content-center.align-items-center(data-aos="zoom-in-up")
-        .col-md-4.col-lg-4
+        .col-md-4.col-lg-4.mb-5
           figure
-            img.position02(src="@/assets/curso/tema2/img32.svg")        
+            img(src="@/assets/curso/tema2/img32.svg")        
         .col-md-8.col-lg-8
-          p.p-5.ps-0.me-5.pt-0.pb-4.mb-4 Con base en lo anterior, los reportes del IRCA que se entreguen por parte de la autoridad sanitaria deben ser acatados por la empresa prestadora del servicio de acueducto, responsable de la operación del sistema de tratamiento y distribución de agua potable, para adelantar las acciones necesarias tendientes a minimizar el riesgo de presencia de inconvenientes de salud pública en la población atendida por el sistema.
+          p.p-4.me-5.mt-4 Con base en lo anterior, los reportes del IRCA que se entreguen por parte de la autoridad sanitaria deben ser acatados por la empresa prestadora del servicio de acueducto, responsable de la operación del sistema de tratamiento y distribución de agua potable, para adelantar las acciones necesarias tendientes a minimizar el riesgo de presencia de inconvenientes de salud pública en la población atendida por el sistema.
     
     .contenedor--texto-left3
       p.mb-5.mt-5 Otros indicadores que se deben tener presente en la gestión de riesgo de sistemas de tratamiento y distribución de agua potable son:
