@@ -237,31 +237,40 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Arteaga, D., y Ordóñez, J. (2019). Guía para la gestión del riesgo en sistemas de agua y saneamiento ante amenazas naturales. M. Basani, Ed.',
+      tipo: 'Archivo formato pdf.',
+      descarga:
+        '/downloads/Guia_para_la_gestion_del_riesgo_en_sistemas_de_agua_y_saneamiento_ante_amenazas_naturales.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Emdupar S.A. E.S.P. (s .f.). Manual de operación y mantenimiento del sistema de suministro y tratamiento de agua potable. https://www.emdupar.gov.co/index.php/la-entidad/sistema-integrado-de-gestion/Planeacion/Manuales/MA-GA-02%20MANUAL%20DE%20MANTENIMIENTO%20Y%20OPERACIONES%20PLANTA.pdf/download',
+      tipo: 'Archivo formato pdf.',
+      descarga: '/downloads/Manual_de_Mantenimiento_y_operaciones_planta.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Ministerio de la Protección Social, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2017). Resolución 2115 de 2007. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. https://justiciaambientalcolombia.org/wp-content/uploads/2014/12/resolucion-2115-de-2007mps-mavdt.pdf',
+      tipo: 'Archivo formato pdf.',
+      descarga: '/downloads/Resolucion_2115_de_2007.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto:
+        'Sigma-Aldrich. (2013) Ficha de datos de seguridad. https://www.javeriana.edu.co/documents/4486808/5015300/CLORURO+FERRICO+_SIGMA.pdf/9193708a-b1f0-45f5-8656-319cf498a7c1?version=1.0',
+      tipo: 'Archivo formato pdf.',
+      descarga: '/downloads/Ejemplo_MSDS.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Brinsa. (2017). Ficha de datos de seguridad hipoclorito del sodio al 15%. http://www.brinsaquimica.com.co/wp-content/uploads/2017/10/HS_Hipoclorito_de_Sodio.pdf',
+      tipo: 'Archivo formato pdf.',
+      descarga: '/downloads/HS_Hipoclorito_de_Sodio.pdf',
+    },
+    {
+      texto:
+        'Quinsa. (2011). Hoja de seguridad sulfato de aluminio tipo a solido. http://quinsa.com.co/archivos/productos/8/ficha_seguridad-276dfcf8f5b7847eba1eb4c45a0273ab16072013223638.pdf',
+      tipo: 'Archivo formato pdf.',
+      descarga: '/downloads/Ficha_seguridad_Sulfato_de_Aluminio.pdf',
     },
   ],
   creditos: {
