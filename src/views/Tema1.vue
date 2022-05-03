@@ -31,16 +31,17 @@
     #t_1_1.titulo-segundo.color-secundario(data-aos="zoom-out-right")
       h2 1.1.	Instructivos de almacenamiento, manejo y transporte de sustancias peligrosas
 
-    .row.justify-content-center.align-content-center.mb-5
-      .col-lg-5.align-self-center
-        figure(data-aos="zoom-out-right")
-          img(src="@/assets/curso/tema1/img09.svg")       
-      .col-lg-7.align-self-center
-          .contenedor--texto-right-gray1.mb-4.mb-lg-0
-            p.mb-4.mt-5 Se deben conocer las sustancias peligrosas que comúnmente se emplean en los sistemas de potabilización. 
-          p.mb-4 Lo anterior depende del sistema de tratamiento que se tenga, lo cual incide directamente en la manipulación de sustancias peligrosas; no es igual contar con una planta potabilizadora tipo convencional, en la que se emplean sustancias para las operaciones de mezcla rápida-coagulación-floculación, el ajuste o estabilización del pH y la desinfección, o con una que únicamente cuente con procesos de filtración por múltiples etapas, en la cual generalmente solo se emplea el desinfectante como sustancia química dentro del proceso. También se encuentran en el mercado diversas opciones de plantas de potabilización compactas, con procesos más sencillos.
-          .contenedor--texto-left-gray1
-            p.mb-4 Sin embargo, para todos los casos es imperativo emplear instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, para evitar o minimizar riesgos a la salud de los operadores y población atendida por el sistema, así como al medio ambiente. Las sustancias más empleadas en los sistemas de tratamiento de agua potable se presentan en la Tabla 1.
+    .bg_grad-01
+      .row.justify-content-center.align-content-center.mb-5
+        .col-lg-5.align-self-center
+          figure(data-aos="zoom-out-right")
+            img(src="@/assets/curso/tema1/img09.png")       
+        .col-lg-7.align-self-center
+            .contenedor--texto-right-gray1.mb-4.mb-lg-0
+              p.mb-4.mt-5 Se deben conocer las sustancias peligrosas que comúnmente se emplean en los sistemas de potabilización. 
+            p.mb-4 Lo anterior depende del sistema de tratamiento que se tenga, lo cual incide directamente en la manipulación de sustancias peligrosas; no es igual contar con una planta potabilizadora tipo convencional, en la que se emplean sustancias para las operaciones de mezcla rápida-coagulación-floculación, el ajuste o estabilización del pH y la desinfección, o con una que únicamente cuente con procesos de filtración por múltiples etapas, en la cual generalmente solo se emplea el desinfectante como sustancia química dentro del proceso. También se encuentran en el mercado diversas opciones de plantas de potabilización compactas, con procesos más sencillos.
+            .contenedor--texto-left-gray1
+              p.mb-4 Sin embargo, para todos los casos es imperativo emplear instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, para evitar o minimizar riesgos a la salud de los operadores y población atendida por el sistema, así como al medio ambiente. Las sustancias más empleadas en los sistemas de tratamiento de agua potable se presentan en la Tabla 1.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-out-right")
       h5 Tabla 1 
@@ -51,95 +52,48 @@
       .col-lg-8
         table
           thead
-          tbody
             tr.bg03
               td.text-center <b>Sustancia química</b>
               td.text-center <b>Operación donde se emplea dentro del tratamiento</b>
             tr
-        table
-          thead
           tbody
             tr
               td.text-center Sulfato de aluminio - Al2(SO4)3
               td.text-center Coagulación-Floculación
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Cloruro férrico - FeCl3
               td.text-center Coagulación-Floculación
             tr
-        table
-          thead
-          tbody
-            tr
               td.text-center Sulfato férrico - Fe2(SO4)3
               td.text-center Coagulación-Floculación
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Sulfato ferroso - FeSO4
               td.text-center Coagulación-Floculación
             tr
-        table
-          thead
-          tbody
-            tr
               td.text-center Policloruro de aluminio (PAC) - Al2(OH)3Cl3
               td.text-center Coagulación-Floculación
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Ácido sulfúrico - H2SO4
               td.text-center Acondicionamiento de pH
             tr
-        table
-          thead
-          tbody
-            tr
               td.text-center Hidróxido de calcio - Ca (OH)2
               td.text-center Acondicionamiento de pH
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Óxido de calcio - CaO
               td.text-center Acondicionamiento de pH
             tr
-        table
-          thead
-          tbody
-            tr
               td.text-center Cloro - Cl2
               td.text-center Desinfección
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Dióxido de cloro - ClO2
               td.text-center Desinfección
             tr
-        table
-          thead
-          tbody
-            tr
               td.text-center Hipoclorito de sodio - NaClO
               td.text-center Desinfección
-            tr
-        table
-          thead
-          tbody
             tr.bg04
               td.text-center Ozono - O3
               td.text-center Desinfección
-            tr
+            
 
     p Dos insumos importantes a la hora de almacenar y manera las sustancias peligrosas son:
 
@@ -151,96 +105,153 @@
             p.mb-4.me-3 Es conocido que para su manejo cada sustancia debe contar con la Hoja de Datos de Seguridad de Materiales o MSDS (Material Safety Data Sheet), la que debe ser entregada al sistema de tratamiento por el fabricante de cada sustancia. En dicha MSDS se incluye información relacionada con los peligros del empleo de sustancias químicas para la salud humana y para los ecosistemas. También proporciona información al respecto de situaciones y medidas en los casos de emergencia.
             p.mb-4 Las MSDS deben contar por lo menos con la información indicada en el diagrama.
             p A manera de ejemplo, es importante que se haga la consulta las MSDS de lproductos sulfato de aluminio e hipoclorito de sodioos, que se encuentran en la sección de material complementario, para apropiar los contenidos de información.
+
           .row.mt-5
-            .col-lg-12
-              .row(data-aos="zoom-out-left")
-                .col-lg-1
-                  figure
+            .col-12.col-lg-4
+              .row
+                .col-12.col-lg-3
+                  figure.justify-center
                     img.img60.mb-4(src='@/assets/curso/tema1/img11.svg')
-                  figure
+                .col-12.col-lg-9
+                  p.mb-5.mt-1 Identificación de los componentes químicos. 
+              .row
+                .col-12.col-lg-3   
+                  figure.justify-center
                     img.img60.mb-4(src='@/assets/curso/tema1/img12.svg')
-                  figure
-                    img.img60.mb-4(src='@/assets/curso/tema1/img13.svg')
-                .col-lg-3
-                  p.mb-5.mt-1 Identificación de los componentes químicos.             
+                .col-12.col-lg-9
                   p.mb-5 Características fisicoquímicas.
+              .row
+                .col-12.col-lg-3
+                  figure.justify-center
+                    img.img60.mb-4(src='@/assets/curso/tema1/img13.svg')
+                .col-12.col-lg-9  
                   p Información relacionada con los peligros a la salud y al medio ambiente.
-                .col-lg-1
-                  figure
+            .col-12.col-lg-4
+              .row  
+                .col-12.col-lg-3   
+                  figure.justify-center
                     img.img60.mb-4(src='@/assets/curso/tema1/img14.svg')
-                  figure
-                    img.img60.mb-4(src='@/assets/curso/tema1/img15.svg')
-                  figure
-                    img.img60.mb-4(src='@/assets/curso/tema1/img16.svg')
-                .col-lg-3
+                .col-12.col-lg-9 
                   p.mb-5.mt-1 Información relacionada con el fabricante de la sustancia.
+              .row  
+                .col-12.col-lg-3
+                  figure.justify-center
+                    img.img60.mb-4(src='@/assets/curso/tema1/img15.svg')
+                .col-12.col-lg-9 
                   p.mb-4 Información relacionada con los peligros de explosión e incendio.
+              .row  
+                .col-12.col-lg-3
+                  figure.justify-center
+                    img.img60.mb-4(src='@/assets/curso/tema1/img16.svg')
+                .col-12.col-lg-9
                   p.mt-2 Precauciones para un uso y manejo seguros.
-                .col-lg-1
-                  figure
+            .col-12.col-lg-4
+              .row  
+                .col-12.col-lg-3
+                  figure.justify-center
                     img.img60.mb-4(src='@/assets/curso/tema1/img17.svg')
-                  figure
-                    img.img60.mb-4(src='@/assets/curso/tema1/img18.svg')
-                  figure
-                    img.img60.mb-4(src='@/assets/curso/tema1/img19.svg')
-                .col-lg-3
+                .col-12.col-lg-9
                   p.mb-5.mt-3 Componentes peligrosos.
+              .row  
+                .col-12.col-lg-3
+                  figure.justify-center
+                    img.img60.mb-4(src='@/assets/curso/tema1/img18.svg')
+                .col-12.col-lg-9
                   p.mb-4 Información relacionada con la reactividad.
-                  p.mb-4.mt-5 Control en la exposición y en la protección personal.
+              .row  
+                .col-12.col-lg-3
+                  figure.justify-center
+                    img.img60.mb-4(src='@/assets/curso/tema1/img19.svg')
+                .col-12.col-lg-9
+                  p.mb-4.mt-1 Control en la exposición y en la protección personal.
+                  
+                  
       .tarjeta.color.bg04.p-3.mb-1.pt-0
-        .row.ps-5
+        .row.ps-5.mb-5
           .col-lg-12
             p.mb-4.mt-5 <b>Instructivos de manejo de sustancias peligrosas</b>
             p.mb-4 Además de las MSDS de los productos químicos empleados en la potabilización del agua, es fundamental que dentro del sistema de gestión de la planta de tratamiento se cuente con los instructivos para el manejo interno de los productos químicos. 
             p Al respecto, en el diagrama se presenta el contenido de un instructivo de manejo de sustancias peligrosas en una planta de potabilización:
+        .row.justify-center
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 Objeto.
+                p Se debe presentar el propósito para el cual se elabora el instructivo de manejo de las sustancias peligrosas. 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img37.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img38.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+        .row.justify-center
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img40.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img41.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem 
+          .col-12.col-lg-2
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
+              .tarjeta.bg12.p-3(x="-3%" y="51%")
+                .h5.mb-2 titulo
+                p Lorem
+    .row.justify-center
+      .col-12.col-lg-10
+        .tarjeta.bgr2.p-4.p-md-5.mb-5
+          .row.justify-content-around.align-items-center
+            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+              img(src="@/assets/curso/tema1/img28.png")
 
-        .row.mb-2.ms-5.me-4
-           TabsA.color-acento-botones.mt-4
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Objeto.")
-              h4 Objeto.
-              p Se debe presentar el propósito para el cual se elabora el instructivo de manejo de las sustancias peligrosas.
-                
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Alcance.")
-              h4 Alcance.
-              p Campo de aplicación del instructivo, en este caso el manejo de las sustancias peligrosas. 
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Definiciones.")
-              h4 Definiciones.
-              p Términos de difícil interpretación para los operarios encargados del manejo de sustancias químicas.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Referencias.")
-              h4 Referencias.
-              p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, el riesgo y los componentes de las sustancias empleadas.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Condiciones.")
-              h4 Condiciones. 
-              p Para el almacenamiento, manejo y transporte de sustancias químicas. Descripción del paso a paso o actividades que se deben llevar a cabo en el empleo seguro de sustancias químicas.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Señalización y etiquetado.")
-              h4 Señalización y etiquetado.
-              p Descripción de las etiquetas y señales necesarias según las sustancias químicas empleadas en el sistema de tratamiento.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Manejo y disposición de residuos.")
-              h4 Manejo y disposición de residuos. 
-              p Descripción de las actividades relacionadas con el manejo seguro de los residuos peligrosos generados por el empleo de las sustancias químicas.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="MSDS de sustancias empleadas.")
-              h4 MSDS de sustancias empleadas.  
-              p Anexo de las MSDS de las sustancias químicas que se emplean en el sistema de tratamiento.
-
-
-    .container_link.position-relative
-      .tarjeta.bg07.col-12.col-md-10.mx-auto.d-flex.flex-wrap.flex-md-nowrap.mb-5.mt-5
-        img.ms-3(src='@/assets/curso/tema1/img28.png' data-aos="zoom-in" style="max-width: 620px; margin-inline-start: -100px; margin-top: -3.5rem")
-        .my-auto.position-relative
-          p.ps-0.pe-md-5.pb-4.pt-5 Se invita al aprendiz a ver la página 1 y 2 del documento Cloruro férrico, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario. 
-          .w-100.d-flex.justify-content-center.pe-0.pe-md-5.mt-5
-            .mx-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_CF003_Ejemplo_MSDS.pdf')" target="_blank" type="application/pdf")
+            .col-md.col-lg-6.position-relative 
+              p.mb-4 Se invita al aprendiz a ver la página 1 y 2 del documento Cloruro férrico, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario.
+              
+              a.boton.bgr1.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
-        img(src="@/assets/curso/tema1/img29.png" style="max-width: 116px; position: absolute; right: 3%; top: 50%; transform: translateY(-50%);")
+              img.posit.img116(src="@/assets/curso/tema1/img29.png")          
 
     separador
     #t_1_2.titulo-segundo.color-secundario(data-aos="zoom-out-right")

@@ -63,6 +63,11 @@
   margin-inline-start: -100px
   max-width: 144.81px
 
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+
 .bg01
   background-color: #491079
 
@@ -95,6 +100,8 @@
 
 .bg11
   background-color: #ECECEC
+.bg12
+  background-color: #D8E0E9
 
 .flex-end
   display: flex;
@@ -106,7 +113,21 @@
 .etiqueta
   background-color: #E0F6C5
   color: black
-
+.bg_grad-01
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-color: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+    background-repeat: no-repeat
 .contenedor--texto-left
   position: relative
   *
@@ -464,11 +485,6 @@
     background: rgb(88,88,88);
     background: linear-gradient(90deg, rgba(88,88,88,0.9920343137254902) 0%, rgba(255,255,255,1) 100%)
 
-.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-    background-color: #7181F4
-
-.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
-    background-color: #7181F4 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
     background-color: #7181F4 !important
@@ -520,3 +536,56 @@
     left: 280%;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     opacity: .3;
+.indicador--hover:after
+  display: none
+.img-infografica__item
+  width: 19% !important
+.img-infografica.color-secundario .img-infografica__item__dot:before
+  background-color: #0000
+.img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: #0000
+.posit
+  position: absolute
+  top: 76px
+  right: -129px
+.img116
+  max-width: 116px
+.bgr1
+  background-color: #FFD947
+.bgr2
+  background-color: #BAC8D8
+.texto-blanco *, .texto-blanco span
+  color: $black !important
+
+.texto-blanco *, .texto-blanco i
+  color: $black !important
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D8E0E9 !important
+      color: black
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D8E0E9
+      color: black
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #7181F4
+      color: white
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #7181F4
+      color: white
+
+.img-responsive
+  width: 210px
+  @media screen and ( max-width: 420px  )
+    width: 150px
+    
+      

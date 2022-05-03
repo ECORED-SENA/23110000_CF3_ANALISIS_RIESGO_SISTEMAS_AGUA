@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Protocolos de gestión de riesgo',
     descripcionCurso:
       'Para gestionar el riesgo que se pueda generar en la operación de un sistema de tratamiento y distribución de agua potable, es necesario establecer protocolos, indicadores y anomalías presentadas que puedan afectar la calidad del agua que se distribuye a la población.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {

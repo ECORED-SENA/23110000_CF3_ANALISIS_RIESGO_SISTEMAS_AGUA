@@ -317,10 +317,11 @@
         .tarjeta.tarjeta-flip.color.bg08(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.justify-center.p-5
-              img(src='@/assets/curso/tema2/img18.svg' style="width: 210px")
+            .tarjeta-flip__img.p-md-5.justify-center
               div
-                h3.p-4.text-center.text-white Prospectiva. 
+                img.img-responsive(src='@/assets/curso/tema2/img18.svg')
+                div
+                  h3.p-4.text-center.text-white Prospectiva. 
 
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Prospectiva. 
@@ -331,24 +332,25 @@
         .tarjeta.tarjeta-flip.color-color.bg10(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.justify-center.p-5
-              img(src='@/assets/curso/tema2/img19.svg' style="width: 210px")
+            .tarjeta-flip__img.p-md-5.justify-center
               div
-                h3.p-4.text-center Correctiva. 
+                img.img-responsive(src='@/assets/curso/tema2/img19.svg')
+                div
+                  h3.p-4.text-center Correctiva. 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3 Correctiva. 
               p.small.mt-5.ms-3.me-4 Tratan de reducir riesgos de desastres presentes y que deben ser gestionados de inmediato.
 
-      
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-color.bg08(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.justify-center.p-5
-              img(src='@/assets/curso/tema2/img20.svg' style="width: 210px")
+            .tarjeta-flip__img.p-md-5.justify-center
               div
-                h3.p-2.pt-3.text-center.text-white Compensatoria o gestión de riesgo residual. 
+                img.img-responsive(src='@/assets/curso/tema2/img20.svg')
+                div
+                  h3.p-2.pt-3.text-center.text-white Compensatoria. 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Compensatoria o gestión de riesgo residual. 
