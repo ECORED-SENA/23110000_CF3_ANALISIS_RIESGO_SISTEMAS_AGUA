@@ -7,19 +7,20 @@
         span.text-white 2
       h1 Monitoreo de gestión de riesgo en sistemas de tratamiento y distribución de agua potable
 
-    .row.justify-content-center
-      .col-md-10.mb-4.mb-md-0
-        .contenedor--texto-right-green4(data-aos="fade-right")
-          p.mb-5 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
-    
+    .bg_fondo3
+      .row.justify-content-center
+        .col-md-10.mb-4.mb-md-0
+          .contenedor--texto-right-green4(data-aos="fade-right")
+            p.mb-5.mt-4 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
+      
     .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}").p-1.mb-4
       SlyderE(indicadores="derecha")  
         .row.justify-content-center.mb-4(data-aos="fade-down")
-          .col-md-10
+          .col-md-12.px-4
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/img51.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema2/img51.png', alt='Texto que describa la imagen')
 
               .tarjeta.color-primario.p-3(x="10%" y="95%")
                 .h5.mb-2 Amenaza.
@@ -40,29 +41,27 @@
               .tarjeta.color-primario.p-3(x="91%" y="95%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
-
-
-        
-        .row.justify-content-center.align-items-center
-          .col-md-6.mb-5.mb-md-0
-            h4.mt-2.mb-5 Impactos
+       
+        .row.justify-content-center
+          .col-md-7.mb-4.mb-md-0
+            h4.mb-4 Impactos
             p Se debe identificar la vulnerabilidad de un sistema de tratamiento y distribución de agua potable para facilitar alternativas de intervención que sean técnicamente viables y económicamente factibles; de esta manera, es claro que cuando se presenta una situación de desastre sobre un sistema de agua para consumo humano, los daños no afectan solamente a dicho sistema, sino que, además, impactan de manera indirecta consecuencias a la salud pública y a la economía de las regiones afectadas (Manzur, 2002). 
-          .col-md-4
+          .col-md-3
             figure
-              img.mb-5(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
 
-        .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h4.mt-2.mb-5 Tipos de daños presentados 
-            p.mt-5 De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
-          .col-md-4
+        .row.justify-content-center
+          .col-md-7.mb-4.mb-md-0
+            h4.mb-4 Tipos de daños presentados 
+            p De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
+          .col-md-3
             figure
               img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
 
-        .row.justify-content-center.align-items-center
-          .col-md-6.mb-5.mb-md-0
-            h4.mt-4.ms-2 Directos
-            ul.lista-ul
+        .row.justify-content-center
+          .col-md-7.mb-4.mb-md-0
+            h4.mt-5.ms-2.mb-4 Directos
+            ul.lista-ul.lh-sm
               li 
                 i.lista-ul__vineta
                 | Pérdida o contaminación de fuentes.
@@ -91,13 +90,13 @@
                 i.lista-ul__vineta
                 | Cambios en el régimen hidrogeológico: disminución del caudal en las fuentes superficiales y subterráneas, cambio de sitio de salida de aguas manantiales y alteración de nivel de la capa freática.            
           .col-md-4
-               figure
-                 img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen')
+               figure.mt-5
+                 img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen' style= 'width: 364px')
 
-        .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h4.mt-4.ms-2 Indirectos
-            ul.lista-ul
+        .row.justify-content-center
+          .col-md-8.mb-4.mb-md-0
+            h4.mt-4.ms-2.mb-4 Indirectos
+            ul.lista-ul.lh-1
               li 
                 i.lista-ul__vineta
                 | Disminución de la cantidad de agua potable disponible.
@@ -131,7 +130,7 @@
               li 
                 i.lista-ul__vineta
                 | Remuneración de horas extras.   
-          .col-md-4
+          .col-md-3
             figure
               img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen')
 
@@ -140,83 +139,85 @@
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")  
       .h4 2.1 Procedimientos de evaluación y seguimiento
     
-    .row.justify-content-center
-      .col-lg-11
-        .contenedor--texto-right-green5
-          p.mb-5.mt-3.me-5.pe-5 Los procedimientos de evaluación y seguimiento incluyen la identificación y el análisis o evaluación del riesgo, como lo afirman Arteaga y Ordóñez (2019):
-        .contenedor--texto-left2
-          p.mb-5 El enfoque cualitativo o cuantitativo para determinar la naturaleza y el alcance del riesgo de desastres mediante el análisis de las posibles amenazas y la evaluación de las condiciones existentes de exposición y vulnerabilidad que conjuntamente podrían causar daños a las personas, los bienes, los servicios, los medios de vida y el medio ambiente del cual dependen; es decir, el proceso de estimar la probabilidad de que ocurra un acontecimiento y la magnitud probable de efectos adversos.  
-        .contenedor--texto-right-green6
-          p.mb-5 De la misma manera, según Arteaga y Ordóñez (2019), la evaluación de factores de riesgo en sistemas de potabilización debe incluir: 
+    .bg_fondo4
+      .row.justify-content-center
+        .col-lg-11
+          .contenedor--texto-right-green5
+            p.mb-5.mt-3.me-5.pe-5 Los procedimientos de evaluación y seguimiento incluyen la identificación y el análisis o evaluación del riesgo, como lo afirman Arteaga y Ordóñez (2019):
+          .contenedor--texto-left2
+            p.mb-5 El enfoque cualitativo o cuantitativo para determinar la naturaleza y el alcance del riesgo de desastres mediante el análisis de las posibles amenazas y la evaluación de las condiciones existentes de exposición y vulnerabilidad que conjuntamente podrían causar daños a las personas, los bienes, los servicios, los medios de vida y el medio ambiente del cual dependen; es decir, el proceso de estimar la probabilidad de que ocurra un acontecimiento y la magnitud probable de efectos adversos.  
+          .contenedor--texto-right-green6
+            p.mb-5 De la misma manera, según Arteaga y Ordóñez (2019), la evaluación de factores de riesgo en sistemas de potabilización debe <br>incluir: 
     
     
     p.h3.p-5.pb-0.ms-5 Aspectos a tener en cuenta en la evaluación de factores de riesgo en sistemas
     span.h3.p-5.pb-0.ms-5 de potabilización 
 
-    .row.justify-content-center.bg-header(data-aos="zoom-in-down") 
-      .col-lg-10
-          PasosA.color-acento-botones.m-5.mt-0(tipo="l")
-            .row
-              .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
-                p La identificación de las amenazas en materia de la infraestructura, funcionabilidad y operación.
-              .col-md-3.d-flex.align-self-end
-                figure.justify-center.flex-end
-                  img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen' style="max-width: 262px")
+    .bg-header
+      .row.justify-content-center(data-aos="zoom-in-down") 
+        .col-lg-10
+            PasosA.color-acento-botones.m-5.mt-0(tipo="l")
+              .row
+                .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
+                  p La identificación de las amenazas en materia de la infraestructura, funcionabilidad y operación.
+                .col-md-3.d-flex.align-self-end
+                  figure.justify-center.flex-end
+                    img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen' style="max-width: 262px")
 
-            .row
-              .col-md-4.mb-4.mb-md-0.d-flex.align-self-end
-                figure.justify-center
-                  img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen'  style="max-width: 316px")
-              .col-md-8.mb-4.mb-md-0.mt-5.d-flex.align-self-end
-                p.me-4.mb-5 El diagnóstico de las condiciones técnicas de peligros, su ubicación, frecuencia y probabilidad.
+              .row
+                .col-md-4.mb-4.mb-md-0.d-flex.align-self-end
+                  figure.justify-center
+                    img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen'  style="max-width: 316px")
+                .col-md-8.mb-4.mb-md-0.mt-5.d-flex.align-self-end
+                  p.me-4.mb-5 El diagnóstico de las condiciones técnicas de peligros, su ubicación, frecuencia y probabilidad.
 
-            .row
-              .col-md-9.mb-4.mb-md-0.mt-5
-                p.ms-4.mt-4 Un análisis de la exposición y la vulnerabilidad que incluya elementos físicos, sociales, ambientales, económicos y de salud.
-              .col-md-3
-                figure.flex-end
-                  img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen'  style="max-width: 200px")
+              .row
+                .col-md-9.mb-4.mb-md-0.mt-5
+                  p.ms-4.mt-4 Un análisis de la exposición y la vulnerabilidad que incluya elementos físicos, sociales, ambientales, económicos y de salud.
+                .col-md-3
+                  figure.flex-end
+                    img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen'  style="max-width: 200px")
 
-            .row
-              .col-md-3.mb-4.mb-md-0.d-flex.align-self-end
-                figure.justify-center
-                  img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen'  style="max-width: 191px")
-              .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
-                p.me-4.mb-5 La evaluación de la eficacia de la capacidad de resistencia y recuperación, respecto a los escenarios de riesgo probables. 
+              .row
+                .col-md-3.mb-4.mb-md-0.d-flex.align-self-end
+                  figure.justify-center
+                    img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen'  style="max-width: 191px")
+                .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
+                  p.me-4.mb-5 La evaluación de la eficacia de la capacidad de resistencia y recuperación, respecto a los escenarios de riesgo probables. 
     
-    .row
-      .col-md-12.mb-4.mb-md-0
+    .row.justify-content-end
+      .col-12.col-md-11.mb-4.mb-md-0
         .contenedor--texto-right-green4
-          p.ms-5.mb-2.ps-5 Al respecto, los autores citados antes también manifiestan que la evaluación de los riesgos de un sistema de tratamiento y distribución de agua potable debe tener en cuenta las amenazas y la vulnerabilidad en la zona donde se encuentra la infraestructura. Para ello, es necesario identificar las consecuencias que dichas amenazas y su respectivo análisis de vulnerabilidad considerando si se llega a concretar la amenaza, la:
+          p.m-0 Al respecto, los autores citados antes también manifiestan que la evaluación de los riesgos de un sistema de tratamiento y distribución de agua potable debe tener en cuenta las amenazas y la vulnerabilidad en la zona donde se encuentra la infraestructura. Para ello, es necesario identificar las consecuencias que dichas amenazas y su respectivo análisis de vulnerabilidad considerando si se llega a concretar la amenaza, la:
     
-    .row.justify-content-center.align-content-center.mb-5
+    .row.align-items-center.mb-5
       .col-lg-6.align-self-center.ms-5.mt-5
-        ul.lista-ul--color(data-aos="fade-right")  
+        ul.lista-ul--color.lh-1(data-aos="fade-right")  
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 Ubicación específica de las amenazas según la escala empleada.
+            p.m-0.ps-3 Ubicación específica de las amenazas según la escala empleada.
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 Identificación de las estructuras del sistema expuestas a las amenazas.   
+            p.m-0.ps-3 Identificación de las estructuras del sistema expuestas a las amenazas.   
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 Caracterización de los efectos sobre la funcionalidad del sistema. 
+            p.m-0.ps-3 Caracterización de los efectos sobre la funcionalidad del sistema. 
                  
-        p.my-5.ms-5.pb-4 En esta misma línea, establecen que para la evaluación del riesgo es importante contar con:
+        p.m-0.my-5.ms-5 En esta misma línea, establecen que para la evaluación del riesgo es importante contar con:
         
         ul.lista-ul--color(data-aos="fade-right")  
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 Una información amplia y detallada. 
+            p.m-0.ps-3 Una información amplia y detallada. 
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 Un análisis específico.  
+            p.m-0.ps-3 Un análisis específico.  
           li 
             i.fas.fa-bug(style="color: #491079")
-            p.ps-3.lh-1 La aplicación de metodologías de evaluación de riesgo.
+            p.m-0.ps-3 La aplicación de metodologías de evaluación de riesgo.
              
-      .col-lg-5.align-self-center
-        figure.pt-2.flex-end
+      .col-lg-4.align-self-center
+        figure.ms-5.ps-3
           img(src='@/assets/curso/tema2/img15.svg' data-aos="fade-left")  
 
     .contenedor--texto-right-green7    
@@ -251,39 +252,40 @@
 
     p.mx-4.mb-4.text-center Igualmente, (Manzur, 2002) expone que se debe contar con estrategias que permitan la revisión oportuna de los riesgos, las cuales incluyen:  
     
-    p.mb-4.text-center <b>Estrategias para una revisión oportuna de los riesgos</b>
+    .bg_fondo5
+      p.mb-4.text-center <b>Estrategias para una revisión oportuna de los riesgos</b>
 
-    .row.mb-5.justify-content-evenly(data-aos="zoom-in-down") 
-      .col-md-3.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5 
-          .tarjeta-numerada__numero.num_1
-            .h2.numero 1
-          p.text-center Definir el grado de centralización y descentralización del Estado en el funcionamiento de los niveles administrativos relacionados con riesgos.
+      .row.mb-5.justify-content-evenly(data-aos="zoom-in-down") 
+        .col-md-3.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada.color-primario.p-5 
+            .tarjeta-numerada__numero.num_1
+              .h2.numero 1
+            p.text-center Definir el grado de centralización y descentralización del Estado en el funcionamiento de los niveles administrativos relacionados con riesgos.
 
-      .col-md-3.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada_2.color-secundario.p-5
-          .tarjeta-numerada__numero.num_2
-            .h2.numero 2
-          p.text-center Cumplir con las funciones y responsabilidades de gestión de riesgo de instituciones como ministerios, organismos descentralizados nacionales, organismos locales de emergencia, prevención y atención de desastres, gobernaciones y municipios.
+        .col-md-3.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada_2.color-secundario.p-5
+            .tarjeta-numerada__numero.num_2
+              .h2.numero 2
+            p.text-center Cumplir con las funciones y responsabilidades de gestión de riesgo de instituciones como ministerios, organismos descentralizados nacionales, organismos locales de emergencia, prevención y atención de desastres, gobernaciones y municipios.
 
-      .col-md-3.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada_3.color-acento-contenido.p-5
-          .tarjeta-numerada__numero.num_3
-            .h2.numero 3
-          p.text-center Incluir a las comunidades en la elaboración y control de planes y programas de gestión en materia de riesgo.
+        .col-md-3.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada_3.color-acento-contenido.p-5
+            .tarjeta-numerada__numero.num_3
+              .h2.numero 3
+            p.text-center Incluir a las comunidades en la elaboración y control de planes y programas de gestión en materia de riesgo.
 
-    .row.m-5.px-5.justify-content-around(data-aos="zoom-in-down") 
-      .col-md-3.col-xl.mb-4.mb-xl-0.ms-5
-        .tarjeta-numerada_4.color-acento-contenido.p-5.m-5.mt-2
-          .tarjeta-numerada__numero.num_4 
-            .h2.numero 4
-          p.text-center Garantizar en el nivel de permanencia, la continuidad y el profesionalismo de recursos humanos técnicos en cargos de tipo directivo y de gerencia media, en áreas con responsabilidad en gestión del riesgo.
+      .row.mb-5.justify-content-evenly(data-aos="zoom-in-down") 
+        .col-md-3.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada_4.color-acento-contenido.p-5
+            .tarjeta-numerada__numero.num_4 
+              .h2.numero 4
+            p.text-center Garantizar en el nivel de permanencia, la continuidad y el profesionalismo de recursos humanos técnicos en cargos de tipo directivo y de gerencia media, en áreas con responsabilidad en gestión del riesgo.
 
-      .col-md-3.col-xl.mb-4.mb-xl-0.me-5
-        .tarjeta-numerada_5.color-acento-botones.p-5.m-5.mt-2
-          .tarjeta-numerada__numero.num_5
-            .h2.numero 5
-          p.text-center Institucionalizar en el sistema educativo superior la aplicación de asignaturas académicas relacionadas con gestión de desastres y emergencias.
+        .col-md-3.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada_5.color-acento-botones.p-5
+            .tarjeta-numerada__numero.num_5
+              .h2.numero 5
+            p.text-center Institucionalizar en el sistema educativo superior la aplicación de asignaturas académicas relacionadas con gestión de desastres y emergencias.
 
     
     p En contexto, en la siguiente figura es posible apreciar la clara interrelación e interdependencia existente entre los factores de riesgo de desastres, la gestión de riesgo de desastres, los desastres y el desarrollo:
@@ -291,7 +293,7 @@
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-right")  
       h5 Figura 1
     
-    p <em>Ciclo vicioso de los desastres</em>
+    p.ms-4 <em>Ciclo vicioso de los desastres</em>
 
     .row
       .col.md-8
@@ -356,12 +358,12 @@
               h4.pt-4.ms-3.text-white Compensatoria o gestión de riesgo residual. 
               p.small.m-5.ms-3.text-white Robustecen resiliencia social y económica de sociedades ante el riesgo residual que no se puede minimizar. 
 
-    p.mt-5.mb-4 Como manera de prevención de riesgos, es posible que las empresas prestadoras del servicio de acueducto, dentro de su sistema de gestión, establezcan la gestión de riesgo bajo la norma ISO 31000, la que se resume en la siguiente figura:
+    p.mb-4 Como manera de prevención de riesgos, es posible que las empresas prestadoras del servicio de acueducto, dentro de su sistema de gestión, establezcan la gestión de riesgo bajo la norma ISO 31000, la que se resume en la siguiente figura:
  
-    .titulo-sexto.color-acento-contenido.mt-5
+    .titulo-sexto.color-acento-contenido.mb-2
       h5 Figura 2
     
-    p <em>Gestión de riesgos ISO 9001 – ISO 31000</em>
+    p.mb-5 <em>Gestión de riesgos ISO 9001 – ISO 31000</em>
 
     .row
       .col.md-12
@@ -383,12 +385,15 @@
         .contenedor--texto-left-gray3
           p.mb-4 Con base en la Resolución 2115 de 2007, donde se definen los indicadores necesarios para determinar el grado de riesgo de calidad de agua potable en el sistema, se debe establecer el reporte de los indicadores y sus correspondientes conclusiones. A continuación se describen dichos indicadores: 
 
-    p.mx-5 Índice de Riesgo de la Calidad del Agua Potable (IRCA)   
+    ul.lista-ul
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#491079 !important;"></i>
+        p.ms-4 <b>Índice de Riesgo de la Calidad del Agua Potable (IRCA)</b>   
     
     .row.justify-content-center
-      .col-md-9
+      .col-md-10
         p En relación con los elementos relacionados con el cálculo y reporte del IRCA, existen cinco (5) niveles de riesgo de acuerdo con el valor calculado del indicador:
-      .col.md-1
+      .col.md-2
         figure.flex-end
           img.me-5(src='@/assets/curso/tema2/img29.svg' style="width: 177px") 
 
@@ -398,23 +403,23 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Sin riesgo: valor del IRCA de 0 a 5.
+            p.m-0 <b>Sin riesgo:</b> valor del IRCA de 0 a 5.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Bajo: valor del IRCA de 5,1 a 14.
+            p.m-0 <b>Bajo:</b> valor del IRCA de 5,1 a 14.
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | Medio: valor del IRCA de 14,1 a 35.
+            p.m-0 <b>Medio:</b> valor del IRCA de 14,1 a 35.
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | Alto: valor del IRCA de 35,1 a 80.
+            p.m-0 <b>Alto:</b> valor del IRCA de 35,1 a 80.
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | Inviable sanitariamente: valor del IRCA de 80,1 a 100.
+            p.m-0 <b>Inviable sanitariamente:</b> valor del IRCA de 80,1 a 100.
       .col-md-6
         figure(data-aos="fade-left")  
           img(src='@/assets/curso/tema2/img30.svg') 
@@ -448,7 +453,7 @@
           figure.ps-5.ms-5
             img(src='@/assets/curso/tema2/img34.svg', alt='Texto que describa la imagen' style="width: 336px")
 
-    .bg_fondo2
+    .bg_fondo2.mb-4
       .row.justify-content-center.align-items-center(data-aos="zoom-in-up")
         .col-md-4.col-lg-4.mb-5
           figure
@@ -456,8 +461,11 @@
         .col-md-8.col-lg-8
           p.p-4.me-5.mt-4 Con base en lo anterior, los reportes del IRCA que se entreguen por parte de la autoridad sanitaria deben ser acatados por la empresa prestadora del servicio de acueducto, responsable de la operación del sistema de tratamiento y distribución de agua potable, para adelantar las acciones necesarias tendientes a minimizar el riesgo de presencia de inconvenientes de salud pública en la población atendida por el sistema.
     
-    .contenedor--texto-left3
-      p.mb-5.mt-5 Otros indicadores que se deben tener presente en la gestión de riesgo de sistemas de tratamiento y distribución de agua potable son:
+    ul.lista-ul.mb-5
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#491079 !important;"></i>
+        .contenedor--texto-left3
+          p.ms-4 Otros indicadores que se deben tener presente en la gestión de riesgo de sistemas de tratamiento y distribución de agua potable son:
     
     LineaTiempoD.color-acento-contenido.mb-5
       .row.justify-content-center.align-items-center(numero="1" titulo="IRABAm")
@@ -639,17 +647,17 @@
         .contenedor--texto-right-green4
           p.mb-5.mt-2 Considerando los valores calculados en las fórmulas de cada indicador (IRABApp e IRABAm), el artículo 19 de la Resolución 2115 de 2007 establece una clasificación del nivel de riesgo a la salud humana, así como las acciones a tomar según el tratamiento y la continuidad por parte de las empresas prestadoras y la distribución a nivel municipal, que se presentan en la Tabla 2.
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")  
+    .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")  
       h5 Tabla 2
 
-    p <em>Clasificación del nivel del riesgo en salud por IRABApp e IRABAm</em>
+    p.ms-4.mb-5 <em>Clasificación del nivel del riesgo en salud por IRABApp e IRABAm</em>
 
     figure
       img(src='@/assets/curso/tema2/img47.svg' data-aos="zoom-in-down") 
     
     p.mt-5.mb-5.text-center Nota. Tomada de la Resolución 2115 de 2007, artículo 19. 
 
-    .banfondo1
+    .banfondo1.mb-5
       .row.justify-content-center.align-items-center(data-aos="fade-right")  
         .col-lg-5
           figure

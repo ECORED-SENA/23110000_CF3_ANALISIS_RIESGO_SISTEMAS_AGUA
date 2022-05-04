@@ -5,5 +5,17 @@
       <stop offset="1" stop-color="#efeded"/>
     </linearGradient>
   </defs>
-  <rect id="Rectángulo_208305" data-name="Rectángulo 208305" width="1074" height="382" fill="url(#linear-gradient)"/>
+  <g id="Grupo_755972" data-name="Grupo 755972" transform="translate(-346.189 -12094)">
+    <rect id="Rectángulo_208305" data-name="Rectángulo 208305" width="1074" height="382" transform="translate(346.189 12094)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_268744" data-name="Trazado 268744" d="M2980.506,109.4a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,109.4Z" transform="translate(1380.594 9159.867) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268745" data-name="Trazado 268745" d="M2980.506,64.95a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,64.95Z" transform="translate(1359.989 9159.867) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268746" data-name="Trazado 268746" d="M2980.506,20.5a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,20.5Z" transform="translate(1339.384 9159.867) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268747" data-name="Trazado 268747" d="M2980.506-23.946a1.993,1.993,0,0,1,1.983,2,1.993,1.993,0,0,1-1.983,2,1.993,1.993,0,0,1-1.983-2A1.993,1.993,0,0,1,2980.506-23.946Z" transform="translate(1318.779 9159.867) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268752" data-name="Trazado 268752" d="M2980.506-68.293a1.993,1.993,0,0,1,1.983,2,1.994,1.994,0,0,1-1.983,2,1.993,1.993,0,0,1-1.983-2A1.993,1.993,0,0,1,2980.506-68.293Z" transform="translate(1298.22 9159.867) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268744-2" data-name="Trazado 268744" d="M2980.506,109.4a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,109.4Z" transform="translate(1380.594 9460.862) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268745-2" data-name="Trazado 268745" d="M2980.506,64.95a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,64.95Z" transform="translate(1359.989 9460.862) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268746-2" data-name="Trazado 268746" d="M2980.506,20.5a2,2,0,1,1-1.983,2A1.993,1.993,0,0,1,2980.506,20.5Z" transform="translate(1339.384 9460.862) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268747-2" data-name="Trazado 268747" d="M2980.506-23.946a1.993,1.993,0,0,1,1.983,2,1.993,1.993,0,0,1-1.983,2,1.993,1.993,0,0,1-1.983-2A1.993,1.993,0,0,1,2980.506-23.946Z" transform="translate(1318.779 9460.862) rotate(90)" fill="#491079"/>
+    <path id="Trazado_268752-2" data-name="Trazado 268752" d="M2980.506-68.293a1.993,1.993,0,0,1,1.983,2,1.994,1.994,0,0,1-1.983,2,1.993,1.993,0,0,1-1.983-2A1.993,1.993,0,0,1,2980.506-68.293Z" transform="translate(1298.22 9460.862) rotate(90)" fill="#491079"/>
+  </g>
 </svg>

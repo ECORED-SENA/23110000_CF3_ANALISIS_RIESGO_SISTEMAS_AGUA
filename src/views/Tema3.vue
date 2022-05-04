@@ -16,10 +16,10 @@
 
     p.mt-5 Dicho informe debe contener como mínimo los siguientes ítems:
 
-    .titulo-sexto.color-acento-contenido.mt-5
+    .titulo-sexto.color-acento-contenido.mb-2
       h5 Figura 3
 
-    p <em>Ítems necesarios para el informe de riesgos.</em>
+    p.ms-4 <em>Ítems necesarios para el informe de riesgos.</em>
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-6.mb-5.mb-md-0

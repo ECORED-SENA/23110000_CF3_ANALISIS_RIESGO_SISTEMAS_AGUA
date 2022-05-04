@@ -43,7 +43,7 @@
             .contenedor--texto-left-gray1
               p.mb-4 Sin embargo, para todos los casos es imperativo emplear instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, para evitar o minimizar riesgos a la salud de los operadores y población atendida por el sistema, así como al medio ambiente. Las sustancias más empleadas en los sistemas de tratamiento de agua potable se presentan en la Tabla 1.
 
-    .titulo-sexto.color-acento-contenido(data-aos="zoom-out-right")
+    .titulo-sexto.color-secundario(data-aos="zoom-out-right")
       h5 Tabla 1 
 
     p.mb-5 <em>Sustancias más empleadas en sistemas de potabilización de agua</em>
@@ -187,24 +187,24 @@
                 figure
                   img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Alcance. 
+                p Campo de aplicación del instructivo, en este caso el manejo de las sustancias peligrosas. 
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img37.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Definiciones. 
+                p Términos de difícil interpretación para los operarios encargados del manejo de sustancias químicas.
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img38.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Referencias.
+                p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, el riesgo y los componentes de las sustancias empleadas.
         .row.justify-center
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
@@ -212,40 +212,40 @@
                 figure
                   img(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Condiciones.
+                p Para el almacenamiento, manejo y transporte de sustancias químicas. Descripción del paso a paso o actividades que se deben llevar a cabo en el empleo seguro de sustancias químicas.
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img40.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Señalización y etiquetado. 
+                p Descripción de las etiquetas y señales necesarias según las sustancias químicas empleadas en el sistema de tratamiento.
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img41.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem 
+                .h5.mb-2 Manejo y disposición de residuos. 
+                p Descripción de las actividades relacionadas con el manejo seguro de los residuos peligrosos generados por el empleo de las sustancias químicas.
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
-                .h5.mb-2 titulo
-                p Lorem
+                .h5.mb-2 MSDS de sustancias empleadas. 
+                p Anexo de las MSDS de las sustancias químicas que se emplean en el sistema de tratamiento.
     .row.justify-center
       .col-12.col-lg-10
         .tarjeta.bgr2.p-4.p-md-5.mb-5
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-              img(src="@/assets/curso/tema1/img28.png")
+              img.img_float(src="@/assets/curso/tema1/img28-1.png" )
 
-            .col-md.col-lg-6.position-relative 
+            .col-md.col-lg-7.position-relative 
               p.mb-4 Se invita al aprendiz a ver la página 1 y 2 del documento Cloruro férrico, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario.
               
               a.boton.bgr1.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
@@ -283,40 +283,69 @@
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img31.svg', alt='Texto que describa la imagen')
-              
-        div
-          p.mb-2.ms-5.me-4.mt-5 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, la estructura de los instructivos de operación y mantenimiento es similar:
-           TabsA.color-acento-botones.mt-4.ms-4
 
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Objeto.")
-              h4.ms-4 Objeto.
-              p.ms-4 Se debe presentar el propósito para el cual se elabora el instructivo de operación y/o mantenimiento.
-                
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Alcance.")
-              h4.ms-4 Alcance.
-              p.ms-4 Campo de aplicación del instructivo, en este caso la operación y/o mantenimiento.           
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Definiciones.")
-              h4.ms-4 Definiciones.
-              p.ms-4 Términos de difícil interpretación para los operarios encargados de la operación y/o mantenimiento.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Referencias.")
-              h4.ms-4 Referencias.
-              p.ms-4 Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, la operación y/o mantenimiento.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Condiciones para el almacenamiento, manejo y transporte de sustancias químicas.")
-              h4.ms-4 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas. 
-              p.ms-4 Descripción del paso a paso de acciones a efectuar en operación y/o mantenimiento.
-
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Manejo y disposición de residuos.")
-              h4.ms-4 Manejo y disposición de residuos. 
-              p.ms-4 Descripción de las actividades relacionadas con el manejo de los residuos originados en operación y/o mantenimiento.
+        .row.justify-content-center
+          .col-12.col-md-9
+            .row
+              .col-12.col-md-9
+                p.mb-5.pb-4 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, la estructura de los instructivos de operación y mantenimiento es similar:
+            .row.justify-content-center
+              .col-12.col-md-11
+                .row.justify-contet-end
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img20.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3.ps-3(x="-3%" y="51%")
+                        .h5.mb-2 Objeto.
+                        p Se debe presentar el propósito para el cual se elabora el instructivo de operación y/o mantenimiento.
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img21.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3(x="-3%" y="51%")
+                        .h5.mb-2 Alcance. 
+                        p Campo de aplicación del instructivo, en este caso la operación y/o mantenimiento.
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img22.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3(x="-3%" y="51%")
+                        .h5.mb-2 Definiciones. 
+                        p Términos de difícil interpretación para los operarios encargados de la operación y/o mantenimiento.
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3(x="-3%" y="51%")
+                        .h5.mb-2 Referencias.
+                        p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, la operación y/o mantenimiento.
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3(x="-3%" y="51%")
+                        .h5.mb-2 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas. 
+                        p Descripción del paso a paso de acciones a efectuar en operación y/o mantenimiento.
+                  .col-12.col-lg-2
+                    ImagenInfografica.color-secundario.mb-5
+                      template(v-slot:imagen)
+                        figure
+                          img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
+                      .tarjeta.bg12.p-3(x="-3%" y="51%")
+                        .h5.mb-2 Manejo y disposición de residuos.
+                        p Descripción de las actividades relacionadas con el manejo de los residuos originados en operación y/o mantenimiento.
 
         .row.justify-content-center.align-items-center
           .col-md-6.mb-5.mb-md-0
-            p.mt-5 Cabe resaltar que los instructivos de operación y mantenimiento deben estar inmersos en el manual de operación de la planta de potabilización, documento que sirve de referencia para todas las operaciones del sistema de tratamiento. Debe ser un documento de consulta obligatoria y permanente de los operarios del sistema, así como de los funcionarios que dirigen las operaciones. 
+            p.mt-5.me-4 Cabe resaltar que los instructivos de operación y mantenimiento deben estar inmersos en el manual de operación de la planta de potabilización, documento que sirve de referencia para todas las operaciones del sistema de tratamiento. Debe ser un documento de consulta obligatoria y permanente de los operarios del sistema, así como de los funcionarios que dirigen las operaciones. 
           .col-md-4
-            figure
+            figure.p-4
               img.mb-5(src='@/assets/curso/tema1/img32.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center.align-items-center
@@ -330,12 +359,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
