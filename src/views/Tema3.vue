@@ -22,7 +22,7 @@
     p.ms-4 <em>Ítems necesarios para el informe de riesgos.</em>
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-6.mb-5.mb-md-0
+      .col-md-6.mb-5.mb-md-0(data-aos="fade-right") 
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Introducción:") presentación del propósito del informe de resultados y a quiénes va dirigido.
           

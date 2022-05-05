@@ -9,11 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-0 Bienvenido al componente formativo <b>Protocolos de gestión de riesgo en sistemas de tratamiento.</b> A continuación, conocerá los temas que se tratarán a lo largo del mismo. 
-    .contenedor--texto-right-green9
-      p.mb-5 ¡Muchos éxitos en su proceso de aprendizaje!
+    p.mb-0 Bienvenido al componente formativo <b>Protocolos de gestión de riesgo en sistemas de tratamiento.</b> A continuación, conocerá los temas que se tratarán a lo largo del mismo.
+    .contenedor--texto-right-green9.mb-5(data-aos="fade") 
+      p.m-0 ¡Muchos éxitos en su proceso de aprendizaje!
 
-    figure.mb-5
+    figure.mb-5(data-aos="fade") 
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nGSUomulFpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       

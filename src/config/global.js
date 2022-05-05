@@ -133,9 +133,9 @@ export default {
     },
     {
       referencia:
-        'Manzur, C. (2002). Gestión del riesgo en los sistemas de agua potable, alcantarillado y saneamiento.',
+        'Manzur, C. (s.f.). La gestión de riesgos y los servicios de agua potable, alcantarillado y saneamiento..',
       link:
-        'http://bvsper.paho.org/share/ETRAS/AyS/bvsade/e/fulltext/uni/conf20.pdf',
+        'http://cidbimena.desastres.hn/docum/crid/Abril2006/CD1/pdf/spa/doc15357/doc15357.htm',
     },
     {
       referencia:

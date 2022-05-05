@@ -43,7 +43,7 @@
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
             h4.mb-4 Impactos
             p Se debe identificar la vulnerabilidad de un sistema de tratamiento y distribución de agua potable para facilitar alternativas de intervención que sean técnicamente viables y económicamente factibles; de esta manera, es claro que cuando se presenta una situación de desastre sobre un sistema de agua para consumo humano, los daños no afectan solamente a dicho sistema, sino que, además, impactan de manera indirecta consecuencias a la salud pública y a la economía de las regiones afectadas (Manzur, 2002). 
           .col-md-3
@@ -51,7 +51,7 @@
               img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
             h4.mb-4 Tipos de daños presentados 
             p De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
           .col-md-3
@@ -59,7 +59,7 @@
               img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
             h4.mt-5.ms-2.mb-4 Directos
             ul.lista-ul.lh-sm
               li 
@@ -94,7 +94,7 @@
                  img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen' style= 'width: 364px')
 
         .row.justify-content-center
-          .col-md-8.mb-4.mb-md-0
+          .col-md-8.mb-4.mb-md-0(data-aos="fade") 
             h4.mt-4.ms-2.mb-4 Indirectos
             ul.lista-ul.lh-1
               li 
@@ -136,11 +136,11 @@
 
     separador
 
-    #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")  
-      .h4 2.1 Procedimientos de evaluación y seguimiento
+    .bg_fondo4.mb-5
+      #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")  
+        .h4 2.1 Procedimientos de evaluación y seguimiento
     
-    .bg_fondo4
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right") 
         .col-lg-11
           .contenedor--texto-right-green5
             p.mb-5.mt-3.me-5.pe-5 Los procedimientos de evaluación y seguimiento incluyen la identificación y el análisis o evaluación del riesgo, como lo afirman Arteaga y Ordóñez (2019):
@@ -149,49 +149,48 @@
           .contenedor--texto-right-green6
             p.mb-5 De la misma manera, según Arteaga y Ordóñez (2019), la evaluación de factores de riesgo en sistemas de potabilización debe <br>incluir: 
     
-    
-    p.h3.p-5.pb-0.ms-5 Aspectos a tener en cuenta en la evaluación de factores de riesgo en sistemas
-    span.h3.p-5.pb-0.ms-5 de potabilización 
-
-    .bg-header
+    .bg-header.mb-5
+      .row
+        .col-12.col-md-7.ms-md-5.ms-md-0.ps-md-5.ps-md-0
+          h4 Aspectos a tener en cuenta en la evaluación de factores de riesgo en sistemas <br>de potabilización 
       .row.justify-content-center(data-aos="zoom-in-down") 
         .col-lg-10
-            PasosA.color-acento-botones.m-5.mt-0(tipo="l")
-              .row
-                .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
+            PasosA.color-acento-botones(tipo="l")
+              .row.justify-content-evenly.align-items-end
+                .col-md-7.mb-4.mb-md-0
                   p La identificación de las amenazas en materia de la infraestructura, funcionabilidad y operación.
-                .col-md-3.d-flex.align-self-end
-                  figure.justify-center.flex-end
-                    img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen' style="max-width: 262px")
-
-              .row
-                .col-md-4.mb-4.mb-md-0.d-flex.align-self-end
-                  figure.justify-center
-                    img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen'  style="max-width: 316px")
-                .col-md-8.mb-4.mb-md-0.mt-5.d-flex.align-self-end
-                  p.me-4.mb-5 El diagnóstico de las condiciones técnicas de peligros, su ubicación, frecuencia y probabilidad.
-
-              .row
-                .col-md-9.mb-4.mb-md-0.mt-5
-                  p.ms-4.mt-4 Un análisis de la exposición y la vulnerabilidad que incluya elementos físicos, sociales, ambientales, económicos y de salud.
                 .col-md-3
-                  figure.flex-end
-                    img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen'  style="max-width: 200px")
+                  figure
+                    img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen')
 
-              .row
-                .col-md-3.mb-4.mb-md-0.d-flex.align-self-end
-                  figure.justify-center
-                    img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen'  style="max-width: 191px")
-                .col-md-9.mb-4.mb-md-0.mt-5.d-flex.align-self-end
-                  p.me-4.mb-5 La evaluación de la eficacia de la capacidad de resistencia y recuperación, respecto a los escenarios de riesgo probables. 
+              .row.justify-content-evenly.align-items-center
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen')
+                .col-md-7.mb-4.mb-md-0
+                  p.m-0 El diagnóstico de las condiciones técnicas de peligros, su ubicación, frecuencia y probabilidad.
+
+              .row.justify-content-evenly.align-items-center
+                .col-md-8.mb-4.mb-md-0
+                  p.m-0 Un análisis de la exposición y la vulnerabilidad que incluya elementos físicos, sociales, ambientales, económicos y de salud.
+                .col-md-3
+                  figure
+                    img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen')
+
+              .row.align-items-center
+                .col-md-3.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen')
+                .col-md-8.mb-4.mb-md-0
+                  p.m-0 La evaluación de la eficacia de la capacidad de resistencia y recuperación, respecto a los escenarios de riesgo probables. 
     
-    .row.justify-content-end
+    .row.justify-content-end.mb-4
       .col-12.col-md-11.mb-4.mb-md-0
         .contenedor--texto-right-green4
           p.m-0 Al respecto, los autores citados antes también manifiestan que la evaluación de los riesgos de un sistema de tratamiento y distribución de agua potable debe tener en cuenta las amenazas y la vulnerabilidad en la zona donde se encuentra la infraestructura. Para ello, es necesario identificar las consecuencias que dichas amenazas y su respectivo análisis de vulnerabilidad considerando si se llega a concretar la amenaza, la:
     
-    .row.align-items-center.mb-5
-      .col-lg-6.align-self-center.ms-5.mt-5
+    .row.justify-content-evenly.align-items-center.mb-5
+      .col-lg-6
         ul.lista-ul--color.lh-1(data-aos="fade-right")  
           li 
             i.fas.fa-bug(style="color: #491079")
@@ -216,12 +215,14 @@
             i.fas.fa-bug(style="color: #491079")
             p.m-0.ps-3 La aplicación de metodologías de evaluación de riesgo.
              
-      .col-lg-4.align-self-center
-        figure.ms-5.ps-3
+      .col-lg-4
+        figure
           img(src='@/assets/curso/tema2/img15.svg' data-aos="fade-left")  
 
-    .contenedor--texto-right-green7    
-      p.ms-5.ps-5 Lo anterior requiere de fuertes inversiones en recursos (físicos, materiales y humanos); por ello Arteaga y Ordóñez (2019) proponen que, como en la mayoría de los casos, las entidades encargadas de la gestión de riesgos en los sistemas de agua potable no cuentan fácilmente con dichos recursos, se emplee una herramienta denominada Estimación Rápida del Riesgos para Sistemas de Agua Potable y Saneamiento o QRE – WASH (por sus siglas en inglés para Quick Risk Estimation).
+    .row.justify-content-end.mb-4
+      .col-12.col-md-11.mb-4.mb-md-0
+        .contenedor--texto-right-green7
+          p.m-0 Lo anterior requiere de fuertes inversiones en recursos (físicos, materiales y humanos); por ello Arteaga y Ordóñez (2019) proponen que, como en la mayoría de los casos, las entidades encargadas de la gestión de riesgos en los sistemas de agua potable no cuentan fácilmente con dichos recursos, se emplee una herramienta denominada Estimación Rápida del Riesgos para Sistemas de Agua Potable y Saneamiento o QRE – WASH (por sus siglas en inglés para Quick Risk Estimation).
 
     .row.justify-content-center.align-content-center.mb-5
       .col-lg-4.align-self-center
@@ -232,11 +233,13 @@
         .contenedor--texto-left
           p … es una adaptación de la herramienta de autoevaluación de las variables utilizadas en la campaña ‘Ciudades Resilientes – Mi ciudad se está preparando’, basadas en instrumentos desarrollados por la Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres (UNDRR). Esta herramienta permite disponer de una aproximación cualitativa–cuantitativa del riesgo de desastres con la aplicación de ‘criterio de expertos’ o uso del método Delphi. 
         
-    p.mb-4.ms-5.ps-5 Esta herramienta identifica y evalúa los riesgos del sistema por medio de “la identificación de amenazas, la exposición que cada componente del sistema presenta ante las amenazas identificadas, la evaluación de las vulnerabilidades del componente y la calidad de las medidas de respuesta implementadas” (Arteaga y Ordóñez, 2019). 
+    .row.justify-content-end.mb-4
+      .col-12.col-md-11.mb-4.mb-md-0
+        p.m-0 Esta herramienta identifica y evalúa los riesgos del sistema por medio de “la identificación de amenazas, la exposición que cada componente del sistema presenta ante las amenazas identificadas, la evaluación de las vulnerabilidades del componente y la calidad de las medidas de respuesta implementadas” (Arteaga y Ordóñez, 2019). 
     
     .row.ms-4.justify-content-center
       .col-lg-11
-        .tarjeta-color.color.bg09.border.rounded-3.p-5.m-5.mt-2
+        .tarjeta-color.color.bg09.border.rounded-3.p-5.m-5.mt-2(data-aos="fade-up") 
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img.img-especial2(src="@/assets/curso/tema2/img23.png")
@@ -314,7 +317,7 @@
     p.mt-5.mx-5 <b>Medidas de riesgo que se deben plantear y su gestión</b>
     p.mb-5.mx-5 Según UNISDR (2016, citado por Arteaga y Ordóñez, 2019), deben plantearse medidas de gestión del riesgo de manera:
   
-    .row.mb-5.justify-space-evenly.justify-content-center
+    .row.mb-5.justify-space-evenly.justify-content-center(data-aos="fade-up") 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color.bg08(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")

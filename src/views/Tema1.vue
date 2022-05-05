@@ -106,7 +106,7 @@
             p.mb-4 Las MSDS deben contar por lo menos con la información indicada en el diagrama.
             p A manera de ejemplo, es importante que se haga la consulta las MSDS de lproductos sulfato de aluminio e hipoclorito de sodioos, que se encuentran en la sección de material complementario, para apropiar los contenidos de información.
 
-          .row.mt-5
+          .row.mt-5(data-aos="fade") 
             .col-12.col-lg-4
               .row
                 .col-12.col-lg-3
@@ -172,7 +172,7 @@
             p.mb-4.mt-5 <b>Instructivos de manejo de sustancias peligrosas</b>
             p.mb-4 Además de las MSDS de los productos químicos empleados en la potabilización del agua, es fundamental que dentro del sistema de gestión de la planta de tratamiento se cuente con los instructivos para el manejo interno de los productos químicos. 
             p Al respecto, en el diagrama se presenta el contenido de un instructivo de manejo de sustancias peligrosas en una planta de potabilización:
-        .row.justify-center
+        .row.justify-center(data-aos="fade") 
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
@@ -238,9 +238,10 @@
               .tarjeta.bg12.p-3(x="-3%" y="51%")
                 .h5.mb-2 MSDS de sustancias empleadas. 
                 p Anexo de las MSDS de las sustancias químicas que se emplean en el sistema de tratamiento.
+    
     .row.justify-center
       .col-12.col-lg-10
-        .tarjeta.bgr2.p-4.p-md-5.mb-5
+        .tarjeta.bgr2.p-4.p-md-5.mb-5(data-aos="fade-left") 
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
               img.img_float(src="@/assets/curso/tema1/img28-1.png" )
