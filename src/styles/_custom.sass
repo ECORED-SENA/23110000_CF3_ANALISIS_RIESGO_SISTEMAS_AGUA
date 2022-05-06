@@ -261,6 +261,8 @@
     left: 0
     right: 70%
     background-color: #DCEEC6
+    @media screen and ( max-width: 420px  )
+      width: 367px
 
 .contenedor--texto-right-gray1
   position: relative
@@ -334,10 +336,10 @@
   &::before
     position: absolute
     content: ''
-    top: 25%
-    bottom: -25%
+    top: 15%
+    bottom: 32%
     left: 50%
-    right: -1%
+    right: -6%
     background-color: #EDEDED
 
 .contbgr
@@ -505,19 +507,14 @@
   justify-content: center
 
 .banfondo1
-  position: relative
-  p .row
-  position: relative
-  &::before
-    content: ''
-    position: absolute
-    margin: 0 0rem
-    top: -1px
-    left: 198px
-    width: 100%
-    height: calc(100% + 2rem)
-    background-image: url("../assets/curso/tema2/img48.svg")
-    background-repeat: no-repeat
+  background-image: url('../assets/curso/tema2/img48.svg')
+  background-position: 73% 47%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
 
 .pasos-a.color-acento-botones .pasos-a__linea .hor-line 
   border-top-color: #7181F4
@@ -629,6 +626,7 @@
 .bgr2
   background-color: #BAC8D8
   height: 255px
+  
 .texto-blanco *, .texto-blanco span
   color: $black !important
 
@@ -660,12 +658,14 @@
 
 .img-responsive
   width: 210px
-  @media screen and ( max-width: 420px  )
+  @media screen and ( max-width: 420px )
     width: 150px
     
 .img_float
     margin-top: -85px
     margin-left: -50px
+    @media (min-width: $bp-min-md) and (max-width: $bp-max-xl)
+      margin-top: -101px
 
 .slyder__action
     margin-right: 32px
@@ -679,3 +679,29 @@
 .titulo-sexto.color-acento-contenido 
     border-left-color: #491079
 
+.tarjeta-numerada_5 .num_5 .h2
+    color: #12263F!important
+
+.bg-tema2-1
+  background-image: url('../assets/curso/tema2/img22.svg')
+  background-position: 98% 47%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
+.bg-tema2-2
+  background-image: url('../assets/curso/tema2/img52.svg')
+  background-position: 98% 47%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
+.margin2
+  margin-right: -67px
+  margin-bottom: 2rem

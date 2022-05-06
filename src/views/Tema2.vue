@@ -15,30 +15,45 @@
       
     .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}").p-1.mb-4
       SlyderE(indicadores="derecha")  
-        .row.justify-content-center.mb-4(data-aos="fade-down")
-          .col-md-12.px-4
-            ImagenInfografica.color-secundario.mb-5
+        .row.justify-content-center(data-aos="fade-down")
+          .col-12.col-md-2
+            ImagenInfografica.color-secundario.mb-4
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/img51.png', alt='Texto que describa la imagen')
-
-              .tarjeta.color-primario.p-3(x="10%" y="95%")
+                  img(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3(x="50%" y="50%")
                 .h5.mb-2 Amenaza.
                 p Probabilidad de ocurrencia de un fenómeno potencialmente peligroso con origen natural o humano.
-
-              .tarjeta.color-primario.p-3(x="30%" y="95%")
+          .col-12.col-md-2
+            ImagenInfografica.color-secundario.mb-4
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3(x="50%" y="50%")
                 .h5.mb-2 Vulnerabilidad.
                 p Predisposición física, económica, política o social a sufrir daños en caso de presentarse una amenaza.
-
-              .tarjeta.color-primario.p-3(x="51%" y="95%")
+          .col-12.col-md-2
+            ImagenInfografica.color-secundario.mb-4
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3(x="50%" y="50%")
                 .h5.mb-2 Riesgo.
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
-
-              .tarjeta.color-primario.p-3(x="71%" y="95%")
+          .col-12.col-md-2
+            ImagenInfografica.color-secundario.mb-4
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3(x="50%" y="45%")
                 .h5.mb-2 Desastre natural. 
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
-
-              .tarjeta.color-primario.p-3(x="91%" y="95%")
+          .col-12.col-md-2
+            ImagenInfografica.color-secundario.mb-4
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3(x="50%" y="45%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
@@ -136,18 +151,19 @@
 
     separador
 
-    .bg_fondo4.mb-5
-      #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")  
-        .h4 2.1 Procedimientos de evaluación y seguimiento
-    
-      .row.justify-content-center(data-aos="fade-right") 
-        .col-lg-11
-          .contenedor--texto-right-green5
-            p.mb-5.mt-3.me-5.pe-5 Los procedimientos de evaluación y seguimiento incluyen la identificación y el análisis o evaluación del riesgo, como lo afirman Arteaga y Ordóñez (2019):
-          .contenedor--texto-left2
-            p.mb-5 El enfoque cualitativo o cuantitativo para determinar la naturaleza y el alcance del riesgo de desastres mediante el análisis de las posibles amenazas y la evaluación de las condiciones existentes de exposición y vulnerabilidad que conjuntamente podrían causar daños a las personas, los bienes, los servicios, los medios de vida y el medio ambiente del cual dependen; es decir, el proceso de estimar la probabilidad de que ocurra un acontecimiento y la magnitud probable de efectos adversos.  
-          .contenedor--texto-right-green6
-            p.mb-5 De la misma manera, según Arteaga y Ordóñez (2019), la evaluación de factores de riesgo en sistemas de potabilización debe <br>incluir: 
+    .row.bg-tema2-1
+      .col-lg-12.px-lg-5.px-4
+        #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")  
+          .h4 2.1 Procedimientos de evaluación y seguimiento
+      
+        .row.justify-content-center(data-aos="fade-right") 
+          .col-lg-11
+            .contenedor--texto-right-green5
+              p.mb-5.mt-3.me-5.pe-5 Los procedimientos de evaluación y seguimiento incluyen la identificación y el análisis o evaluación del riesgo, como lo afirman Arteaga y Ordóñez (2019):
+            .contenedor--texto-left2
+              p.mb-5 El enfoque cualitativo o cuantitativo para determinar la naturaleza y el alcance del riesgo de desastres mediante el análisis de las posibles amenazas y la evaluación de las condiciones existentes de exposición y vulnerabilidad que conjuntamente podrían causar daños a las personas, los bienes, los servicios, los medios de vida y el medio ambiente del cual dependen; es decir, el proceso de estimar la probabilidad de que ocurra un acontecimiento y la magnitud probable de efectos adversos.  
+            .contenedor--texto-right-green6
+              p.mb-5 De la misma manera, según Arteaga y Ordóñez (2019), la evaluación de factores de riesgo en sistemas de potabilización debe <br>incluir: 
     
     .bg-header.mb-5
       .row
@@ -237,54 +253,57 @@
       .col-12.col-md-11.mb-4.mb-md-0
         p.m-0 Esta herramienta identifica y evalúa los riesgos del sistema por medio de “la identificación de amenazas, la exposición que cada componente del sistema presenta ante las amenazas identificadas, la evaluación de las vulnerabilidades del componente y la calidad de las medidas de respuesta implementadas” (Arteaga y Ordóñez, 2019). 
     
-    .row.ms-4.justify-content-center
-      .col-lg-11
-        .tarjeta-color.color.bg09.border.rounded-3.p-5.m-5.mt-2(data-aos="fade-up") 
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img.img-especial2(src="@/assets/curso/tema2/img23.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.pt-2.me-3 Para una mejor comprensión del análisis de riesgo en sistemas de agua potable basado en la herramienta QRE – WASH, se recomienda al aprendiz consultar el siguiente documento.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ANEXO2~1.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-                    img(src="@/assets/curso/tema2/img24.png" style="max-width: 123.32px; position: absolute; right: 85%; top: 200%; transform: translateY(-50%);")
+    .row.ms-4.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta-color.color.bg09.border.rounded-3(data-aos="fade-up") 
+          .p-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img.img-especial2(src="@/assets/curso/tema2/img23.png")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.pt-2.me-3 Para una mejor comprensión del análisis de riesgo en sistemas de agua potable basado en la herramienta QRE – WASH, se recomienda al aprendiz consultar el siguiente documento.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/ANEXO2~1.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+                      img(src="@/assets/curso/tema2/img24.png" style="max-width: 123.32px; position: absolute; right: 85%; top: 200%; transform: translateY(-50%);")
 
-    p.mx-4.mb-4.text-center Igualmente, (Manzur, 2002) expone que se debe contar con estrategias que permitan la revisión oportuna de los riesgos, las cuales incluyen:  
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        p.text-center Igualmente, (Manzur, 2002) expone que se debe contar con estrategias que permitan la revisión oportuna de los riesgos, las cuales incluyen:  
     
     .bg_fondo5
       p.mb-4.text-center <b>Estrategias para una revisión oportuna de los riesgos</b>
 
       .row.mb-5.justify-content-evenly(data-aos="zoom-in-down") 
-        .col-md-3.col-xl.mb-4.mb-xl-0
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
           .tarjeta-numerada.color-primario.p-5 
             .tarjeta-numerada__numero.num_1
               .h2.numero 1
             p.text-center Definir el grado de centralización y descentralización del Estado en el funcionamiento de los niveles administrativos relacionados con riesgos.
 
-        .col-md-3.col-xl.mb-4.mb-xl-0
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
           .tarjeta-numerada_2.color-secundario.p-5
             .tarjeta-numerada__numero.num_2
               .h2.numero 2
             p.text-center Cumplir con las funciones y responsabilidades de gestión de riesgo de instituciones como ministerios, organismos descentralizados nacionales, organismos locales de emergencia, prevención y atención de desastres, gobernaciones y municipios.
 
-        .col-md-3.col-xl.mb-4.mb-xl-0
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
           .tarjeta-numerada_3.color-acento-contenido.p-5
             .tarjeta-numerada__numero.num_3
               .h2.numero 3
             p.text-center Incluir a las comunidades en la elaboración y control de planes y programas de gestión en materia de riesgo.
 
       .row.mb-5.justify-content-evenly(data-aos="zoom-in-down") 
-        .col-md-3.col-xl.mb-4.mb-xl-0
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
           .tarjeta-numerada_4.color-acento-contenido.p-5
             .tarjeta-numerada__numero.num_4 
               .h2.numero 4
             p.text-center Garantizar en el nivel de permanencia, la continuidad y el profesionalismo de recursos humanos técnicos en cargos de tipo directivo y de gerencia media, en áreas con responsabilidad en gestión del riesgo.
 
-        .col-md-3.col-xl.mb-4.mb-xl-0
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
           .tarjeta-numerada_5.color-acento-botones.p-5
             .tarjeta-numerada__numero.num_5
               .h2.numero 5
@@ -375,18 +394,22 @@
     
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")  
-      .h4 2.2 Reporte de indicadores y anomalías presentadas en la gestión de riesgo de sistemas de tratamiento y distribución de agua potable
+    .row.bg-tema2-2
+      .col-lg-12.px-lg-5.px-4
+        #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")  
+          .h4 2.2 Reporte de indicadores y anomalías presentadas en la gestión de riesgo de sistemas de tratamiento y<br> distribución de agua potable
 
-    .row.justify-content-center.align-content-center.mb-5
-      .col-lg-3.align-self-center
-        figure.mb-4(data-aos="fade-right")  
-          img.img295(src="@/assets/curso/tema2/img28.svg")    
-      .col-lg-8.align-self-center
-        .contenedor--texto-right-gray3
-          p.mb-4.mt-5 Luego de conocer el riesgo al que está sometido el sistema de tratamiento y distribución, es importante establecer el reporte de indicadores, junto con las anomalías presentadas en la operación.
-        .contenedor--texto-left-gray3
-          p.mb-4 Con base en la Resolución 2115 de 2007, donde se definen los indicadores necesarios para determinar el grado de riesgo de calidad de agua potable en el sistema, se debe establecer el reporte de los indicadores y sus correspondientes conclusiones. A continuación se describen dichos indicadores: 
+        .row.justify-content-center.align-content-center.mb-5
+          .col-lg-3.align-self-center
+            figure.mb-4(data-aos="fade-right")  
+              img.img295(src="@/assets/curso/tema2/img28.svg")    
+          .col-lg-8.align-self-center
+            .contenedor--texto-right-gray3
+              p.mb-4.mt-5 Luego de conocer el riesgo al que está sometido el sistema de tratamiento y distribución, es importante establecer el reporte de indicadores, junto con las anomalías presentadas en la operación.
+            .contenedor--texto-left-gray3
+              p.mb-5 Con base en la Resolución 2115 de 2007, donde se definen los indicadores necesarios para determinar el grado de riesgo de calidad de agua potable en el sistema, se debe establecer el reporte de los indicadores y sus correspondientes conclusiones. A continuación se describen dichos indicadores: 
+              figure
+                img(src="@/assets/curso/tema2/img53.svg" style= "width: 100px" data-aos="zoom-in-down") 
 
     ul.lista-ul
       li 
@@ -660,15 +683,21 @@
     
     p.mt-5.mb-5.text-center Nota. Tomada de la Resolución 2115 de 2007, artículo 19. 
 
-    .banfondo1.mb-5
-      .row.justify-content-center.align-items-center(data-aos="fade-right")  
-        .col-lg-5
-          figure
-            img(src='@/assets/curso/tema2/img41.svg')
-        .col-lg-6
-          p El artículo 20 de la Resolución 2115 de 2007 establece que dentro del procedimiento de registro del IRABAm, la empresa prestadora del servicio debe informar anualmente los Índices Mensuales de Continuidad (IC), que se requieren para calcular el IRABApp, al Sistema Único de Información (SUI) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD).
-      p.pe-4 Así mismo, se establece en el mismo artículo que las autoridades sanitarias departamentales, distrital y municipales de categorías 1, 2 y 3 deben reportar anualmente los datos empleados en el cálculo del Índice de Tratamiento (IT) y el Índice de Riesgo por Distribución Municipal (IRDm) al Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP). 
-
+    .row.banfondo1
+      .col-lg-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center(data-aos="fade-right")  
+          .col-lg-5.ms-4.mb-4.mb-md-0
+            figure.justify-center
+              img(src='@/assets/curso/tema2/img41.svg' style= "width: 465px")
+          .col-lg-6
+            figure.flex-end
+              img.mb-4(src="@/assets/curso/tema2/img53.svg" style= "width: 100px" data-aos="zoom-in-down") 
+            p.m-0 El artículo 20 de la Resolución 2115 de 2007 establece que dentro del procedimiento de registro del IRABAm, la empresa prestadora del servicio debe informar anualmente los Índices Mensuales de Continuidad (IC), que se requieren para calcular el IRABApp, al Sistema Único de Información (SUI) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD).
+        .row.justify-content-center
+          .col-lg-11
+            p Así mismo, se establece en el mismo artículo que las autoridades sanitarias departamentales, distrital y municipales de categorías 1, 2 y 3 deben reportar anualmente los datos empleados en el cálculo del Índice de Tratamiento (IT) y el Índice de Riesgo por Distribución Municipal (IRDm) al Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP).     
+              figure.flex-end
+                img.margin2(src="@/assets/curso/tema2/img53.svg" style= "width: 100px" data-aos="zoom-in-down") 
 
 </template>
 

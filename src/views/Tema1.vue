@@ -98,7 +98,7 @@
     p Dos insumos importantes a la hora de almacenar y manera las sustancias peligrosas son:
 
     SlyderE(indicadores="derecha").pb-4.mb-5
-      .tarjeta.color.bg04.p-3.mb-1.pt-0
+      .tarjeta.color.bg04.p-3.mb-1
         .row.ps-5.center-aligned-text-on-all-viewport-sizes
           .col-lg-12(data-aos="zoom-out-right")
             p.mb-4.mt-5 <b>Hoja de Datos de Seguridad de Materiales o MSDS</b>
@@ -176,7 +176,7 @@
           .col-12.col-lg-2
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
-                figure
+                figure.justify-center
                   img(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
               .tarjeta.bg12.p-3(x="-3%" y="51%")
                 .h5.mb-2 Objeto.
@@ -239,11 +239,11 @@
                 .h5.mb-2 MSDS de sustancias empleadas. 
                 p Anexo de las MSDS de las sustancias químicas que se emplean en el sistema de tratamiento.
     
-    .row.justify-center
+    .row.justify-center.mb-4
       .col-12.col-lg-10
-        .tarjeta.bgr2.p-4.p-md-5.mb-5(data-aos="fade-left") 
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+        .tarjeta.bgr2.p-4.p-md-5(data-aos="fade-left") 
+          .row.justify-content-around
+            .col-8.col-sm-6.col-md-5.col-xxl-4.mb-4.mb-md-0
               img.img_float(src="@/assets/curso/tema1/img28-1.png" )
 
             .col-md.col-lg-7.position-relative 
@@ -260,11 +260,11 @@
 
     p.mb-4 Con el fin de complementar la determinación del riesgo en los sistemas de agua potable, se debe conocer la estructura de los instructivos empleados en la operación y mantenimiento de dichos sistemas, como se muestra a continuación:
 
-    .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}").p-1.mb-4(data-aos="zoom-out-left")
+    .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")(data-aos="zoom-out-left")
       SlyderE(indicadores="derecha")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            p.mt-4 En las operaciones o procesos básicos de la potabilización de agua deben existir instructivos que presenten actividades llevadas a cabo en cada una de las operaciones. Es importante recordar las operaciones básicas:
+          .col-md-7
+            p En las operaciones o procesos básicos de la potabilización de agua deben existir instructivos que presenten actividades llevadas a cabo en cada una de las operaciones. Es importante recordar las operaciones básicas:
             ul.lista-ul
               li 
                 i.lista-ul__vineta
@@ -287,54 +287,52 @@
 
         .row.justify-content-center
           .col-12.col-md-9
-            .row
-              .col-12.col-md-9
-                p.mb-5.pb-4 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, la estructura de los instructivos de operación y mantenimiento es similar:
+            p.mb-5 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, la estructura de los instructivos de operación y mantenimiento es similar:
             .row.justify-content-center
               .col-12.col-md-11
                 .row.justify-contet-end
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img20.svg', alt='Texto que describa la imagen')
                       .tarjeta.bg12.p-3.ps-3(x="-3%" y="51%")
                         .h5.mb-2 Objeto.
                         p Se debe presentar el propósito para el cual se elabora el instructivo de operación y/o mantenimiento.
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img21.svg', alt='Texto que describa la imagen')
                       .tarjeta.bg12.p-3(x="-3%" y="51%")
                         .h5.mb-2 Alcance. 
                         p Campo de aplicación del instructivo, en este caso la operación y/o mantenimiento.
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img22.svg', alt='Texto que describa la imagen')
                       .tarjeta.bg12.p-3(x="-3%" y="51%")
                         .h5.mb-2 Definiciones. 
                         p Términos de difícil interpretación para los operarios encargados de la operación y/o mantenimiento.
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
                       .tarjeta.bg12.p-3(x="-3%" y="51%")
                         .h5.mb-2 Referencias.
                         p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, la operación y/o mantenimiento.
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5.mb-md-0
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')
                       .tarjeta.bg12.p-3(x="-3%" y="51%")
                         .h5.mb-2 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas. 
                         p Descripción del paso a paso de acciones a efectuar en operación y/o mantenimiento.
-                  .col-12.col-lg-2
-                    ImagenInfografica.color-secundario.mb-5
+                  .col-8.col-lg-2
+                    ImagenInfografica.color-secundario.mb-4.mb-md-0
                       template(v-slot:imagen)
                         figure
                           img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
