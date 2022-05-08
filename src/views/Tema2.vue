@@ -11,71 +11,71 @@
       .row.justify-content-center
         .col-md-10.mb-4.mb-md-0
           .contenedor--texto-right-green4(data-aos="fade-right")
-            p.mb-5.mt-4 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
+            p.mb-3.mb-md-5.mt-4 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
       
-    .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}").p-1.mb-4
+    .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")
       SlyderE(indicadores="derecha")  
         .row.justify-content-center(data-aos="fade-down")
           .col-12.col-md-2
-            ImagenInfografica.color-secundario.mb-4
+            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="50%" y="50%")
+                  img.mt-4.mt-md-0(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-0.ms-md-5(x="-3%" y="50%")
                 .h5.mb-2 Amenaza.
                 p Probabilidad de ocurrencia de un fenómeno potencialmente peligroso con origen natural o humano.
           .col-12.col-md-2
-            ImagenInfografica.color-secundario.mb-4
+            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="50%" y="50%")
+              .tarjeta.color-primario.p-3(x="-3%" y="50%")
                 .h5.mb-2 Vulnerabilidad.
                 p Predisposición física, económica, política o social a sufrir daños en caso de presentarse una amenaza.
           .col-12.col-md-2
-            ImagenInfografica.color-secundario.mb-4
+            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="50%" y="50%")
+              .tarjeta.color-primario.p-3(x="-3%" y="50%")
                 .h5.mb-2 Riesgo.
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
-            ImagenInfografica.color-secundario.mb-4
+            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="50%" y="45%")
+              .tarjeta.color-primario.p-3(x="-3%" y="45%")
                 .h5.mb-2 Desastre natural. 
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
-            ImagenInfografica.color-secundario.mb-4
+            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="50%" y="45%")
+              .tarjeta.color-primario.p-3(x="-3%" y="45%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
+          .col-12.col-md-7.mb-4.mb-md-0.pe-5.pe-md-0(data-aos="fade") 
             h4.mb-4 Impactos
             p Se debe identificar la vulnerabilidad de un sistema de tratamiento y distribución de agua potable para facilitar alternativas de intervención que sean técnicamente viables y económicamente factibles; de esta manera, es claro que cuando se presenta una situación de desastre sobre un sistema de agua para consumo humano, los daños no afectan solamente a dicho sistema, sino que, además, impactan de manera indirecta consecuencias a la salud pública y a la economía de las regiones afectadas (Manzur, 2002). 
-          .col-md-3
+          .col-12.col-md-3.pe-5.pe-md-0
             figure
               img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
+          .col-md-7.pe-5.pe-md-0(data-aos="fade") 
             h4.mb-4 Tipos de daños presentados 
             p De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
-          .col-md-3
+          .col-md-3.pe-5.pe-md-0
             figure
               img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0(data-aos="fade") 
-            h4.mt-5.ms-2.mb-4 Directos
+          .col-md-7.pe-5.pe-md-0(data-aos="fade") 
+            h4.mt-0.mt-md-4.mb-4 Directos
             ul.lista-ul.lh-sm
               li 
                 i.lista-ul__vineta
@@ -104,13 +104,13 @@
               li 
                 i.lista-ul__vineta
                 | Cambios en el régimen hidrogeológico: disminución del caudal en las fuentes superficiales y subterráneas, cambio de sitio de salida de aguas manantiales y alteración de nivel de la capa freática.            
-          .col-md-4
+          .col-md-4.pe-5.pe-md-0
                figure.mt-5
                  img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen' style= 'width: 364px')
 
         .row.justify-content-center
-          .col-md-8.mb-4.mb-md-0(data-aos="fade") 
-            h4.mt-4.ms-2.mb-4 Indirectos
+          .col-md-8.pe-5.pe-md-0(data-aos="fade") 
+            h4.mb-4 Indirectos
             ul.lista-ul.lh-1
               li 
                 i.lista-ul__vineta
@@ -145,7 +145,7 @@
               li 
                 i.lista-ul__vineta
                 | Remuneración de horas extras.   
-          .col-md-3
+          .col-md-3.pe-5.pe-md-0
             figure
               img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen')
 
@@ -168,7 +168,7 @@
     .bg-header.mb-5
       .row
         .col-12.col-md-7.ms-md-5.ms-md-0.ps-md-5.ps-md-0
-          h4 Aspectos a tener en cuenta en la evaluación de factores de riesgo en sistemas <br>de potabilización 
+          h4 Aspectos a tener en cuenta en la evaluación de factores de riesgo en sistemas de potabilización 
       .row.justify-content-center(data-aos="zoom-in-down") 
         .col-lg-10
             PasosA.color-acento-botones(tipo="l")
@@ -340,12 +340,12 @@
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color.bg08(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-md-5.justify-center
+          .tarjeta-flip__contenedor.mb-5.mb-md-0
+            .tarjeta-flip__img.p-5.justify-center
               div
                 img.img-responsive(src='@/assets/curso/tema2/img18.svg')
                 div
-                  h3.p-4.text-center.text-white Prospectiva. 
+                  h3.pt-3.text-center.text-white Prospectiva. 
 
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Prospectiva. 
@@ -355,12 +355,12 @@
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-color.bg10(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-md-5.justify-center
+          .tarjeta-flip__contenedor.mb-5.mb-md-0
+            .tarjeta-flip__img.p-5.justify-center
               div
-                img.img-responsive(src='@/assets/curso/tema2/img19.svg')
+                img.mb-2.mb-md-0.img-responsive(src='@/assets/curso/tema2/img19.svg')
                 div
-                  h3.p-4.text-center Correctiva. 
+                  h3.pt-0.pt-md-3.text-center Correctiva. 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3 Correctiva. 
@@ -370,11 +370,11 @@
         .tarjeta.tarjeta-flip.color-color.bg08(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-md-5.justify-center
+            .tarjeta-flip__img.p-5.justify-center
               div
                 img.img-responsive(src='@/assets/curso/tema2/img20.svg')
                 div
-                  h3.p-2.pt-3.text-center.text-white Compensatoria. 
+                  h3.pt-3.text-center.text-white Compensatoria. 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Compensatoria o gestión de riesgo residual. 
@@ -454,7 +454,7 @@
       p.mt-5.mb-5 Las acciones para tomar, dependiendo de los valores encontrados en la revisión (que serán notificados por parte de la autoridad sanitaria de manera inmediata), para los tipos de IRCA según el cuadro 7 del artículo 15 de la Resolución 2115 de 2007, son:
 
       
-    LineaTiempoD.color-acento-contenido.mb-5.pb-5
+    LineaTiempoD.color-acento-contenido.mb-5
       .row.justify-content-center.align-items-center(numero="1" titulo="IRCA por muestra ")
         .col-md-7.mb-4.mb-md-0
           .col-md-6.mb-4.mb-md-0
@@ -479,13 +479,13 @@
           figure.ps-5.ms-5
             img(src='@/assets/curso/tema2/img34.svg', alt='Texto que describa la imagen' style="width: 336px")
 
-    .bg_fondo2.mb-4
-      .row.justify-content-center.align-items-center(data-aos="zoom-in-up")
-        .col-md-4.col-lg-4.mb-5
-          figure
-            img(src="@/assets/curso/tema2/img32.svg")        
-        .col-md-8.col-lg-8
-          p.p-4.me-5.mt-4 Con base en lo anterior, los reportes del IRCA que se entreguen por parte de la autoridad sanitaria deben ser acatados por la empresa prestadora del servicio de acueducto, responsable de la operación del sistema de tratamiento y distribución de agua potable, para adelantar las acciones necesarias tendientes a minimizar el riesgo de presencia de inconvenientes de salud pública en la población atendida por el sistema.
+    .bg_fondo2.mb-5
+      .row.align-items-center(data-aos="zoom-in-up")
+        .col-md-4.col-lg-4
+          figure.margin3
+            img(src="@/assets/curso/tema2/img32.svg" style= "height: 322px")        
+        .col-md-7.col-lg-7
+          p.m-0.padding2 Con base en lo anterior, los reportes del IRCA que se entreguen por parte de la autoridad sanitaria deben ser acatados por la empresa prestadora del servicio de acueducto, responsable de la operación del sistema de tratamiento y distribución de agua potable, para adelantar las acciones necesarias tendientes a minimizar el riesgo de presencia de inconvenientes de salud pública en la población atendida por el sistema.
     
     ul.lista-ul.mb-5
       li 
