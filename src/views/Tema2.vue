@@ -17,66 +17,66 @@
       SlyderE(indicadores="derecha")  
         .row.justify-content-center(data-aos="fade-down")
           .col-12.col-md-2
-            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
+            ImagenInfografica.manito.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
-                figure
-                  img.mt-4.mt-md-0(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3.ms-0.ms-md-5(x="-3%" y="50%")
+                figure.justify-center
+                  img.img250(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
                 .h5.mb-2 Amenaza.
                 p Probabilidad de ocurrencia de un fenómeno potencialmente peligroso con origen natural o humano.
           .col-12.col-md-2
-            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
+            ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="-3%" y="50%")
+                figure.justify-center
+                  img.img250(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
                 .h5.mb-2 Vulnerabilidad.
                 p Predisposición física, económica, política o social a sufrir daños en caso de presentarse una amenaza.
           .col-12.col-md-2
-            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
+            ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="-3%" y="50%")
+                figure.justify-center
+                  img.img250(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
                 .h5.mb-2 Riesgo.
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
-            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
+            ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="-3%" y="45%")
+                figure.justify-center
+                  img.img250(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-5(x="-3%" y="45%")
                 .h5.mb-2 Desastre natural. 
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
-            ImagenInfografica.color-primario.me-5.me-md-0.mb-5.indica_s1
+            ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3(x="-3%" y="45%")
+                figure.justify-center
+                  img.img250(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
+              .tarjeta.color-primario.p-3.ms-5.mt-5(x="-3%" y="45%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
         .row.justify-content-center
           .col-12.col-md-7.mb-4.mb-md-0.pe-5.pe-md-0(data-aos="fade") 
-            h4.mb-4 Impactos
-            p Se debe identificar la vulnerabilidad de un sistema de tratamiento y distribución de agua potable para facilitar alternativas de intervención que sean técnicamente viables y económicamente factibles; de esta manera, es claro que cuando se presenta una situación de desastre sobre un sistema de agua para consumo humano, los daños no afectan solamente a dicho sistema, sino que, además, impactan de manera indirecta consecuencias a la salud pública y a la economía de las regiones afectadas (Manzur, 2002). 
+            h4.mb-4.ms-4.ms-md-0 Impactos
+            p.ms-4.ms-md-0 Se debe identificar la vulnerabilidad de un sistema de tratamiento y distribución de agua potable para facilitar alternativas de intervención que sean técnicamente viables y económicamente factibles; de esta manera, es claro que cuando se presenta una situación de desastre sobre un sistema de agua para consumo humano, los daños no afectan solamente a dicho sistema, sino que, además, impactan de manera indirecta consecuencias a la salud pública y a la economía de las regiones afectadas (Manzur, 2002). 
           .col-12.col-md-3.pe-5.pe-md-0
-            figure
+            figure.ms-3.ms-md-0
               img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
           .col-md-7.pe-5.pe-md-0(data-aos="fade") 
-            h4.mb-4 Tipos de daños presentados 
-            p De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
+            h4.mb-4.ms-4.ms-md-0 Tipos de daños presentados 
+            p.ms-4.ms-md-0 De acuerdo con Arteaga y Ordóñez (2019), cuando se presentan desastres que afectan la infraestructura de los sistemas de agua potable, los daños más comúnmente presentados son los directos y los indirectos.
           .col-md-3.pe-5.pe-md-0
             figure
               img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-center
           .col-md-7.pe-5.pe-md-0(data-aos="fade") 
-            h4.mt-0.mt-md-4.mb-4 Directos
-            ul.lista-ul.lh-sm
+            h4.mt-0.mt-md-4.mb-4.ms-4.ms-md-0 Directos
+            ul.lista-ul.lh-sm.ms-4.ms-md-0
               li 
                 i.lista-ul__vineta
                 | Pérdida o contaminación de fuentes.
@@ -105,13 +105,13 @@
                 i.lista-ul__vineta
                 | Cambios en el régimen hidrogeológico: disminución del caudal en las fuentes superficiales y subterráneas, cambio de sitio de salida de aguas manantiales y alteración de nivel de la capa freática.            
           .col-md-4.pe-5.pe-md-0
-               figure.mt-5
+               figure.mt-5.ms-2.ms-md-0
                  img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen' style= 'width: 364px')
 
         .row.justify-content-center
           .col-md-8.pe-5.pe-md-0(data-aos="fade") 
-            h4.mb-4 Indirectos
-            ul.lista-ul.lh-1
+            h4.mb-4.ms-4.ms-md-0 Indirectos
+            ul.lista-ul.lh-1.ms-4.ms-md-0
               li 
                 i.lista-ul__vineta
                 | Disminución de la cantidad de agua potable disponible.
@@ -146,7 +146,7 @@
                 i.lista-ul__vineta
                 | Remuneración de horas extras.   
           .col-md-3.pe-5.pe-md-0
-            figure
+            figure.ms-3.ms-md-0.mb-3.mb-md-0
               img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen')
 
     separador

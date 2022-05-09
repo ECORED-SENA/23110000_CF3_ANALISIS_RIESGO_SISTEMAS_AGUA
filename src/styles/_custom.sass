@@ -170,6 +170,8 @@
     left: 80%
     right: -30%
     background-color: #E0F6C5
+    @media screen and  (max-width: 420px)
+      right: -6%
 
 .contenedor--texto-right-green3
   position: relative
@@ -222,6 +224,8 @@
     left: -15%
     right: 58%
     background-color: #CBF6F2
+    @media screen and  (max-width: 420px)
+      left: -5%
 
 .contenedor--texto-right-green7
   position: relative
@@ -248,7 +252,8 @@
     left: -20%
     right: 78%
     background-color: #E0F6C5
-
+    @media screen and  (max-width: 420px)
+      left: -5%
 .contenedor--texto-right-green9
   position: relative
   *
@@ -319,6 +324,8 @@
     left: 46%
     right: -9%
     background-color: #F2F2F2
+    @media screen and ( max-width: 420px )
+      right: -3%
 
 .contenedor--texto-left-gray2
   position: relative
@@ -611,8 +618,14 @@
     left: 280%;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     opacity: .3;
-.indicador--hover:after
-  display: none
+
+.noindicador
+  .indicador--hover:after
+    display: none
+.manito
+  .indicador--hover:after
+    left: 75px
+
 .img-infografica__item
   width: 19% !important
 .img-infografica.color-secundario .img-infografica__item__dot:before
@@ -623,6 +636,9 @@
   position: absolute
   top: 25px
   right: -114px
+  @media screen and ( max-width: 420px )
+    top: 160px
+    right: -21px
 .img116
   max-width: 116px
 .bgr1
@@ -630,6 +646,8 @@
 .bgr2
   background-color: #BAC8D8
   height: 255px
+  @media screen and ( max-width: 420px  )
+    height: 400px
   
 .texto-blanco *, .texto-blanco span
   color: $black !important
@@ -668,8 +686,9 @@
 .img_float
     margin-top: -85px
     margin-left: -50px
-    @media (min-width: $bp-min-md) and (max-width: $bp-max-xl)
-      margin-top: -101px
+    @media screen and ( max-width: 420px )
+      margin-top: -73px
+      margin-left: -12px
 
 .slyder__action
     margin-right: 32px
@@ -753,3 +772,5 @@
     background-color: #D8E0E9
     @media (min-width: 1200px)
       padding: 0rem!important
+
+.tarjeta.bgr2
