@@ -49,11 +49,11 @@
                 .h5.mb-2 Desastre natural. 
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
-            ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
+            ImagenInfografica.mrg.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3.ms-5.mt-5.margin_fig_t2(x="-3%" y="45%")
+              .tarjeta.color-primario.p-3.ms-5.mt-5(x="-3%" y="45%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
