@@ -13,7 +13,7 @@
           .contenedor--texto-right-green4(data-aos="fade-right")
             p.mb-3.mb-md-5.mt-4 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
       
-    .tarjeta.margin_especial(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")
+    .tarjeta.margin_especial_1(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")
       SlyderE(indicadores="derecha")  
         .row.justify-content-center(data-aos="fade-down")
           .col-12.col-md-2
@@ -53,7 +53,7 @@
               template(v-slot:imagen)
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
-              .tarjeta.color-primario.p-3.ms-5.mt-5(x="-3%" y="45%")
+              .tarjeta.color-primario.p-3.ms-5.mt-5.margin_fig_t2(x="-3%" y="45%")
                 .h5.mb-2 Gestión de riesgo. 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
