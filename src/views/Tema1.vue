@@ -248,7 +248,7 @@
             .col-md.col-lg-7.position-relative 
               p.mb-4 Se invita al aprendiz a ver la página 1 y 2 del documento Cloruro férrico, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario.
               
-              a.boton.bgr1.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.bgr1.texto-blanco(:href="obtenerLink('/downloads/Ejemplo_MSDS.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
               img.posit.img116(src="@/assets/curso/tema1/img29.png")          
@@ -292,7 +292,7 @@
             .col-12.col-md-10.ms-5.ms-md-0
               .row.justify-contet-end
                 .col-8.col-lg-2
-                  ImagenInfografica.manito.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.manito.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img20.svg', alt='Texto que describa la imagen')
@@ -300,7 +300,7 @@
                       h4.mb-2 Objeto.
                       p Se debe presentar el propósito para el cual se elabora el instructivo de operación y/o mantenimiento.
                 .col-8.col-lg-2
-                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img21.svg', alt='Texto que describa la imagen')
@@ -308,7 +308,7 @@
                       h4.mb-2 Alcance. 
                       p Campo de aplicación del instructivo, en este caso la operación y/o mantenimiento.
                 .col-8.col-lg-2
-                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img22.svg', alt='Texto que describa la imagen')
@@ -316,7 +316,7 @@
                       h4.mb-2 Definiciones. 
                       p Términos de difícil interpretación para los operarios encargados de la operación y/o mantenimiento.
                 .col-8.col-lg-2
-                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
@@ -324,7 +324,7 @@
                       h4.mb-2 Referencias.
                       p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, la operación y/o mantenimiento.
                 .col-8.col-lg-2
-                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')
@@ -332,7 +332,7 @@
                       h4.mb-2 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas. 
                       p Descripción del paso a paso de acciones a efectuar en operación y/o mantenimiento.
                 .col-8.col-lg-2
-                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
+                  ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0.margin_especial2
                     template(v-slot:imagen)
                       figure
                         img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
