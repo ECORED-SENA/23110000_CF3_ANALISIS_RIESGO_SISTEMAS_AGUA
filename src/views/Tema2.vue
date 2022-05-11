@@ -13,7 +13,7 @@
           .contenedor--texto-right-green4(data-aos="fade-right")
             p.mb-3.mb-md-5.mt-4 El proceso de monitoreo de gestión del riesgo en sistemas de potabilización de agua debe llevarse a cabo como medida preventiva en caso de presentarse una emergencia en el sistema, es importante, entonces, conocer los términos relacionados con la gestión de riesgos, así como los tipos de desastres que afectan las infraestructuras, como se muestra a continuación:
       
-    .tarjeta(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")
+    .tarjeta.margin_especial(:style="{'background-image': `url(${require('@/assets/curso/tema2/img49.svg')})`}")
       SlyderE(indicadores="derecha")  
         .row.justify-content-center(data-aos="fade-down")
           .col-12.col-md-2
