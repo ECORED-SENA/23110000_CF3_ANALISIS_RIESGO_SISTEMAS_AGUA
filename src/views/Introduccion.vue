@@ -11,7 +11,7 @@
     
     p.mb-0 Bienvenido al componente formativo <b>Protocolos de gestión de riesgo en sistemas de tratamiento.</b> A continuación, conocerá los temas que se tratarán a lo largo del mismo.
     .contenedor--texto-right-green9.mb-5(data-aos="fade") 
-      p.m-0 ¡Muchos éxitos en su proceso de aprendizaje!
+      p.m-0 ¡Muchos éxitos en su proceso de aprendizaje!.
 
     figure.mb-5(data-aos="fade") 
       .video

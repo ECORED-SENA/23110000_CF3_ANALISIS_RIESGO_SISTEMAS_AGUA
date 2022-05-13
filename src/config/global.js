@@ -238,38 +238,37 @@ export default {
     {
       texto:
         'Arteaga, D., y Ordóñez, J. (2019). Guía para la gestión del riesgo en sistemas de agua y saneamiento ante amenazas naturales. M. Basani, Ed.',
-      tipo: 'Archivo formato pdf.',
+      tipo: 'Archivo formato pdf',
       descarga:
         '/downloads/Guia_para_la_gestion_del_riesgo_en_sistemas_de_agua_y_saneamiento_ante_amenazas_naturales.pdf',
     },
     {
       texto:
-        'Emdupar S.A. E.S.P. (s .f.). Manual de operación y mantenimiento del sistema de suministro y tratamiento de agua potable. https://www.emdupar.gov.co/index.php/la-entidad/sistema-integrado-de-gestion/Planeacion/Manuales/MA-GA-02%20MANUAL%20DE%20MANTENIMIENTO%20Y%20OPERACIONES%20PLANTA.pdf/download',
-      tipo: 'Archivo formato pdf.',
+        'Emdupar S.A. E.S.P. (s .f.). Manual de operación y mantenimiento del sistema de suministro y tratamiento de agua potable.',
+      tipo: 'Archivo formato pdf',
       descarga: '/downloads/Manual_de_Mantenimiento_y_operaciones_planta.pdf',
     },
     {
       texto:
-        'Ministerio de la Protección Social, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2017). Resolución 2115 de 2007. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. https://justiciaambientalcolombia.org/wp-content/uploads/2014/12/resolucion-2115-de-2007mps-mavdt.pdf',
-      tipo: 'Archivo formato pdf.',
+        'Ministerio de la Protección Social, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2017). Resolución 2115 de 2007. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano.',
+      tipo: 'Archivo formato pdf',
       descarga: '/downloads/Resolucion_2115_de_2007.pdf',
     },
     {
-      texto:
-        'Sigma-Aldrich. (2013) Ficha de datos de seguridad. https://www.javeriana.edu.co/documents/4486808/5015300/CLORURO+FERRICO+_SIGMA.pdf/9193708a-b1f0-45f5-8656-319cf498a7c1?version=1.0',
-      tipo: 'Archivo formato pdf.',
+      texto: 'Sigma-Aldrich. (2013) Ficha de datos de seguridad.',
+      tipo: 'Archivo formato pdf',
       descarga: '/downloads/Ejemplo_MSDS.pdf',
     },
     {
       texto:
-        'Brinsa. (2017). Ficha de datos de seguridad hipoclorito del sodio al 15%. http://www.brinsaquimica.com.co/wp-content/uploads/2017/10/HS_Hipoclorito_de_Sodio.pdf',
-      tipo: 'Archivo formato pdf.',
+        'Brinsa. (2017). Ficha de datos de seguridad hipoclorito del sodio al 15%.',
+      tipo: 'Archivo formato pdf',
       descarga: '/downloads/HS_Hipoclorito_de_Sodio.pdf',
     },
     {
       texto:
-        'Quinsa. (2011). Hoja de seguridad sulfato de aluminio tipo a solido. http://quinsa.com.co/archivos/productos/8/ficha_seguridad-276dfcf8f5b7847eba1eb4c45a0273ab16072013223638.pdf',
-      tipo: 'Archivo formato pdf.',
+        'Quinsa. (2011). Hoja de seguridad sulfato de aluminio tipo a solido.',
+      tipo: 'Archivo formato pdf',
       descarga: '/downloads/Ficha_seguridad_Sulfato_de_Aluminio.pdf',
     },
   ],
@@ -289,40 +288,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Adriana Maria Bustamante Cataño',
-        cargo: 'Profesional de diseño y producción curricular',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        nombre: 'Alexander Gómez Reyes',
+        cargo: 'Instructor',
+        centro: 'Centro de la Construcción Regional Valle',
       },
       {
-        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
-        cargo:
-          'Instructora (EPC) – Líder desarrollo curricular Servicios Personales',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
-      },
-      {
-        nombre: 'Luz Adriana Cárdenas González',
-        cargo: 'Experta temática red salud y servicios personales.',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
-      },
-      {
-        nombre: 'Cristina Marcela Gallego Arango',
-        cargo: 'Instructora área de servicios personales.',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
-      },
-      {
-        nombre: 'Cristian Metaute Medina',
+        nombre: 'Gustavo Santis Mancipe',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
       {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Metodóloga para la formación virtual',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluador instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrector de estilo',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -385,13 +369,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: '',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

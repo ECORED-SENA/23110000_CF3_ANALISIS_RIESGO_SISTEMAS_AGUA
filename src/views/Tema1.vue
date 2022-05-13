@@ -58,40 +58,40 @@
             tr
           tbody
             tr
-              td.text-center Sulfato de aluminio - Al2(SO4)3
+              td.text-center Sulfato de aluminio - Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>
               td.text-center Coagulación-Floculación
             tr.bg04
-              td.text-center Cloruro férrico - FeCl3
+              td.text-center Cloruro férrico - FeCl<sub>3</sub>
               td.text-center Coagulación-Floculación
             tr
-              td.text-center Sulfato férrico - Fe2(SO4)3
+              td.text-center Sulfato férrico - Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>
               td.text-center Coagulación-Floculación
             tr.bg04
-              td.text-center Sulfato ferroso - FeSO4
+              td.text-center Sulfato ferroso - FeSO<sub>4</sub>
               td.text-center Coagulación-Floculación
             tr
-              td.text-center Policloruro de aluminio (PAC) - Al2(OH)3Cl3
+              td.text-center Policloruro de aluminio (PAC) - Al<sub>2</sub>(OH)<sub>3</sub>Cl<sub>3</sub>
               td.text-center Coagulación-Floculación
             tr.bg04
-              td.text-center Ácido sulfúrico - H2SO4
+              td.text-center Ácido sulfúrico - H<sub>2</sub>SO<sub>4</sub>
               td.text-center Acondicionamiento de pH
             tr
-              td.text-center Hidróxido de calcio - Ca (OH)2
+              td.text-center Hidróxido de calcio - Ca (OH)<sub>2</sub>
               td.text-center Acondicionamiento de pH
             tr.bg04
               td.text-center Óxido de calcio - CaO
               td.text-center Acondicionamiento de pH
             tr
-              td.text-center Cloro - Cl2
+              td.text-center Cloro - Cl<sub>2</sub>
               td.text-center Desinfección
             tr.bg04
-              td.text-center Dióxido de cloro - ClO2
+              td.text-center Dióxido de cloro - ClO<sub>2</sub>
               td.text-center Desinfección
             tr
               td.text-center Hipoclorito de sodio - NaClO
               td.text-center Desinfección
             tr.bg04
-              td.text-center Ozono - O3
+              td.text-center Ozono - O<sub>3</sub>
               td.text-center Desinfección
             
 
@@ -101,10 +101,10 @@
       SlyderE(indicadores="derecha")
         .row.justify-content-center.me-4.me-md-0
           .col-md-12(data-aos="zoom-out-right")
-            p.mb-4.mt-3.ms-4.ms-md-0 <b>Hoja de Datos de Seguridad de Materiales o MSDS</b>
-            p.mb-4.ms-4.ms-md-0 Es conocido que para su manejo cada sustancia debe contar con la Hoja de Datos de Seguridad de Materiales o MSDS (Material Safety Data Sheet), la que debe ser entregada al sistema de tratamiento por el fabricante de cada sustancia. En dicha MSDS se incluye información relacionada con los peligros del empleo de sustancias químicas para la salud humana y para los ecosistemas. También proporciona información al respecto de situaciones y medidas en los casos de emergencia.
+            p.mb-4.mt-3.ms-4.ms-md-0 <b>Hoja de datos de seguridad de materiales o MSDS</b>
+            p.mb-4.ms-4.ms-md-0 Es conocido que para su manejo cada sustancia debe contar con la Hoja de Datos de Seguridad de Materiales o MSDS <em>(Material Safety Data Sheet)</em>, la que debe ser entregada al sistema de tratamiento por el fabricante de cada sustancia. En dicha MSDS se incluye información relacionada con los peligros del empleo de sustancias químicas para la salud humana y para los ecosistemas. También proporciona información al respecto de situaciones y medidas en los casos de emergencia.
             p.mb-4.ms-4.ms-md-0 Las MSDS deben contar por lo menos con la información indicada en el diagrama.
-            p.pb-2.pb-md-5.ms-4.ms-md-0 A manera de ejemplo, es importante que se haga la consulta las MSDS de lproductos sulfato de aluminio e hipoclorito de sodioos, que se encuentran en la sección de material complementario, para apropiar los contenidos de información.
+            p.pb-2.pb-md-5.ms-4.ms-md-0 A manera de ejemplo, es importante que se haga la consulta las MSDS de los productos sulfato de aluminio e hipoclorito de sodios, que se encuentran en la sección de material complementario, para apropiar los contenidos de información.
 
           .row.justify-content-center(data-aos="fade") 
             .col-12.col-md-4
@@ -178,7 +178,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Objeto.
+                  h4.mb-2 Objeto
                   p Se debe presentar el propósito para el cual se elabora el instructivo de manejo de las sustancias peligrosas. 
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -186,7 +186,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Alcance. 
+                  h4.mb-2 Alcance 
                   p Campo de aplicación del instructivo, en este caso el manejo de las sustancias peligrosas. 
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -194,7 +194,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img37.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Definiciones. 
+                  h4.mb-2 Definiciones 
                   p Términos de difícil interpretación para los operarios encargados del manejo de sustancias químicas.
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -202,7 +202,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img38.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Referencias.
+                  h4.mb-2 Referencias
                   p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, el riesgo y los componentes de las sustancias empleadas.
           .row.justify-center
             .col-12.col-md-2
@@ -211,7 +211,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Condiciones.
+                  h4.mb-2 Condiciones
                   p Para el almacenamiento, manejo y transporte de sustancias químicas. Descripción del paso a paso o actividades que se deben llevar a cabo en el empleo seguro de sustancias químicas.
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -219,7 +219,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img40.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Señalización y etiquetado. 
+                  h4.mb-2 Señalización y etiquetado 
                   p Descripción de las etiquetas y señales necesarias según las sustancias químicas empleadas en el sistema de tratamiento.
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -227,7 +227,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img41.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 Manejo y disposición de residuos. 
+                  h4.mb-2 Manejo y disposición de residuos 
                   p Descripción de las actividades relacionadas con el manejo seguro de los residuos peligrosos generados por el empleo de las sustancias químicas.
             .col-12.col-md-2
               ImagenInfografica.noindicador.color-secundario.me-5.me-md-0.mb-5.indica_s1
@@ -235,7 +235,7 @@
                   figure.ms-4.ms-md-0
                     img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
                 .tarjeta.bg12.p-3(x="-3%" y="51%")
-                  h4.mb-2 MSDS de sustancias empleadas. 
+                  h4.mb-2 MSDS de sustancias empleadas 
                   p Anexo de las MSDS de las sustancias químicas que se emplean en el sistema de tratamiento.
     
     .row.justify-center.mb-5.mb-md-4
@@ -246,7 +246,7 @@
               img.img_float(src="@/assets/curso/tema1/img28-1.png" )
 
             .col-md.col-lg-7.position-relative 
-              p.mb-4 Se invita al aprendiz a ver la página 1 y 2 del documento Cloruro férrico, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario.
+              p.mb-4 Se invita al aprendiz a ver la página 1 y 2 del documento <em>Cloruro férrico</em>, ficha de datos de seguridad (Sigma-Aldrich, 2013), para afianzar los conceptos sobre Hoja de Datos de Seguridad de Materiales o MSDS, ubicado en la sección de material complementario.
               
               a.boton.bgr1.texto-blanco(:href="obtenerLink('/downloads/Ejemplo_MSDS.pdf')" target="_blank" type="application/pdf")
                 span Descargar
@@ -297,7 +297,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img20.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5(x="-3%" y="51%")
-                      h4.mb-2 Objeto.
+                      h4.mb-2 Objeto
                       p Se debe presentar el propósito para el cual se elabora el instructivo de operación y/o mantenimiento.
                 .col-8.col-lg-2
                   ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
@@ -305,7 +305,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img21.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5.ms-md-0(x="-3%" y="51%")
-                      h4.mb-2 Alcance. 
+                      h4.mb-2 Alcance 
                       p Campo de aplicación del instructivo, en este caso la operación y/o mantenimiento.
                 .col-8.col-lg-2
                   ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
@@ -313,7 +313,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img22.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5.ms-md-0(x="-3%" y="51%")
-                      h4.mb-2 Definiciones. 
+                      h4.mb-2 Definiciones 
                       p Términos de difícil interpretación para los operarios encargados de la operación y/o mantenimiento.
                 .col-8.col-lg-2
                   ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
@@ -321,7 +321,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5.ms-md-0(x="-3%" y="51%")
-                      h4.mb-2 Referencias.
+                      h4.mb-2 Referencias
                       p Documentos legales y técnicos consultados para la elaboración del instructivo, relacionados con la potabilización de agua, la operación y/o mantenimiento.
                 .col-8.col-lg-2
                   ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
@@ -329,7 +329,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5.ms-md-0(x="-3%" y="51%")
-                      h4.mb-2 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas. 
+                      h4.mb-2 Condiciones para el almacenamiento, manejo y transporte de sustancias químicas 
                       p Descripción del paso a paso de acciones a efectuar en operación y/o mantenimiento.
                 .col-8.col-lg-2
                   ImagenInfografica.noindicador.color-secundario.mb-4.mb-md-0.indica_s1.ps-5.ps-md-0
@@ -337,7 +337,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
                     .tarjeta.bg12.p-3.ms-5.ms-md-0(x="-3%" y="51%")
-                      h4.mb-2 Manejo y disposición de residuos.
+                      h4.mb-2 Manejo y disposición de residuos
                       p Descripción de las actividades relacionadas con el manejo de los residuos originados en operación y/o mantenimiento.
 
         .row.justify-content-center.align-items-center
@@ -349,7 +349,7 @@
 
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.m-0.mt-0.mt-md-5.ms-3.ms-md-0.me-2.me-md-0 En la sección de material complementario se encuentra un ejemplo de manual de operación de una planta, muy importante para la consulta y contextualización de las operaciones de una planta potabilizadora, llamada “manual de operación y mantenimiento del sistema de suministro y tratamiento de agua potable” de las plantas de potabilización de agua superficial “La Guaricha” y “La Gota Fría”, de la empresa Emdupar S.A. E.S.P. del municipio de Valledupar-Cesar (Emdupar S.A. E.S.P.).
+            p.m-0.mt-0.mt-md-5.ms-3.ms-md-0.me-2.me-md-0 En la sección de material complementario se encuentra un ejemplo de manual de operación de una planta, <b>muy importante para la consulta y contextualización de las operaciones de una planta potabilizadora</b>, llamada “manual de operación y mantenimiento del sistema de suministro y tratamiento de agua potable” de las plantas de potabilización de agua superficial “La Guaricha” y “La Gota Fría”, de la empresa Emdupar S.A. E.S.P. del municipio de Valledupar-Cesar (Emdupar S.A. E.S.P.).
           .col-md-4
             figure
               img(src='@/assets/curso/tema1/img34.svg', alt='Texto que describa la imagen')

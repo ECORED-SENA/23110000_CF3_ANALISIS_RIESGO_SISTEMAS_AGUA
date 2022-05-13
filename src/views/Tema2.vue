@@ -22,7 +22,7 @@
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img02.png', alt='Texto que describa la imagen')
               .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
-                .h5.mb-2 Amenaza.
+                .h5.mb-2 Amenaza
                 p Probabilidad de ocurrencia de un fenómeno potencialmente peligroso con origen natural o humano.
           .col-12.col-md-2
             ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
@@ -30,7 +30,7 @@
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
               .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
-                .h5.mb-2 Vulnerabilidad.
+                .h5.mb-2 Vulnerabilidad
                 p Predisposición física, económica, política o social a sufrir daños en caso de presentarse una amenaza.
           .col-12.col-md-2
             ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
@@ -38,15 +38,15 @@
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
               .tarjeta.color-primario.p-3.ms-5(x="-3%" y="50%")
-                .h5.mb-2 Riesgo.
-                p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
+                .h5.mb-2 Riesgo
+                p Probabilidad de la amenaza en un sistema de vulnerabilidad específico. El riesgo está en función de la amenaza y la vulnerabilidad.
           .col-12.col-md-2
             ImagenInfografica.noindicador.color-primario.mb-5.indica_s1
               template(v-slot:imagen)
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
               .tarjeta.color-primario.p-3.ms-5(x="-3%" y="45%")
-                .h5.mb-2 Desastre natural. 
+                .h5.mb-2 Desastre natural
                 p Fenómeno que modifica de manera intensa la vida normal de una comunidad, región o país, causado por un evento natural.
           .col-12.col-md-2
             ImagenInfografica.mrg.noindicador.color-primario.mb-5.indica_s1
@@ -54,7 +54,7 @@
                 figure.justify-center
                   img.img250(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
               .tarjeta.color-primario.p-3.ms-5.mt-5(x="-3%" y="45%")
-                .h5.mb-2 Gestión de riesgo. 
+                .h5.mb-2 Gestión de riesgo 
                 p Manejo de amenazas, desastres y minimización de la vulnerabilidad, el cual comprende desde la actividad planificadora hasta la reconstrucción, con el fin de superar la vulnerabilidad para incrementar la capacidad organizativa, social e institucional para la mitigación.
        
         .row.justify-content-center
@@ -238,7 +238,7 @@
     .row.justify-content-end.mb-4
       .col-12.col-md-11.mb-4.mb-md-0
         .contenedor--texto-right-green7
-          p.m-0 Lo anterior requiere de fuertes inversiones en recursos (físicos, materiales y humanos); por ello Arteaga y Ordóñez (2019) proponen que, como en la mayoría de los casos, las entidades encargadas de la gestión de riesgos en los sistemas de agua potable no cuentan fácilmente con dichos recursos, se emplee una herramienta denominada Estimación Rápida del Riesgos para Sistemas de Agua Potable y Saneamiento o QRE – WASH (por sus siglas en inglés para Quick Risk Estimation).
+          p.m-0 Lo anterior requiere de fuertes inversiones en recursos (físicos, materiales y humanos); por ello Arteaga y Ordóñez (2019) proponen que, como en la mayoría de los casos, las entidades encargadas de la gestión de riesgos en los sistemas de agua potable no cuentan fácilmente con dichos recursos, se emplee una herramienta denominada <b>Estimación Rápida del Riesgos para Sistemas de Agua Potable y Saneamiento o QRE – WASH</b> (por sus siglas en inglés para <em>Quick Risk Estimation</em>).
 
     .row.justify-content-center.align-content-center.mb-5
       .col-lg-4.align-self-center
@@ -265,7 +265,7 @@
                   .col.mb-3.mb-sm-0
                     p.pt-2.me-3 Para una mejor comprensión del análisis de riesgo en sistemas de agua potable basado en la herramienta QRE – WASH, se recomienda al aprendiz consultar el siguiente documento.
                   .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/ANEXO2~1.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="('https://publications.iadb.org/publications/spanish/document/Herramienta_para_la_evaluaci%C3%B3n_r%C3%A1pida_de_riesgos_y_vulnerabilidades_para_sistemas_de_agua_potable_alcantarillado_y_drenaje_pluvial_es.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
                       img(src="@/assets/curso/tema2/img24.png" style="max-width: 123.32px; position: absolute; right: 85%; top: 200%; transform: translateY(-50%);")
@@ -345,7 +345,7 @@
               div
                 img.img-responsive(src='@/assets/curso/tema2/img18.svg')
                 div
-                  h3.pt-3.text-center.text-white Prospectiva. 
+                  h3.pt-3.text-center.text-white Prospectiva 
 
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Prospectiva. 
@@ -360,7 +360,7 @@
               div
                 img.mb-2.mb-md-0.img-responsive(src='@/assets/curso/tema2/img19.svg')
                 div
-                  h3.pt-0.pt-md-3.text-center Correctiva. 
+                  h3.pt-0.pt-md-3.text-center Correctiva 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3 Correctiva. 
@@ -374,7 +374,7 @@
               div
                 img.img-responsive(src='@/assets/curso/tema2/img20.svg')
                 div
-                  h3.pt-3.text-center.text-white Compensatoria. 
+                  h3.pt-3.text-center.text-white Compensatoria 
               
             .tarjeta-flip__contenido.p-4.p-xl-4
               h4.pt-4.ms-3.text-white Compensatoria o gestión de riesgo residual. 

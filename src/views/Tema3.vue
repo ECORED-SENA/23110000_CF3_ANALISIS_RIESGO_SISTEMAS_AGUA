@@ -24,19 +24,19 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-md-6.mb-5.mb-md-0(data-aos="fade-right") 
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Introducción:") presentación del propósito del informe de resultados y a quiénes va dirigido.
+          p.text-small(numero="1" titulo="Introducción") Presentación del propósito del informe de resultados y a quiénes va dirigido.
           
-          p.text-small(numero="2" titulo="Objetivos:") presentación de los objetivos a alcanzar con el informe de riesgo.
+          p.text-small(numero="2" titulo="Objetivos") Presentación de los objetivos a alcanzar con el informe de riesgo.
           
-          p.text-small(numero="3" titulo="IRCA:") presentación de los datos empleados para la obtención del IRCA, su proceso de cálculo y resultados.
+          p.text-small(numero="3" titulo="IRCA") Presentación de los datos empleados para la obtención del IRCA, su proceso de cálculo y resultados.
           
-          p.text-small(numero="4" titulo="IRABAm:") presentación de los datos empleados para la obtención del IRABAm, su proceso de cálculo y resultados.
+          p.text-small(numero="4" titulo="IRABAm") Presentación de los datos empleados para la obtención del IRABAm, su proceso de cálculo y resultados.
 
-          p.text-small(numero="2" titulo="IRABApp:") presentación de los datos empleados para la obtención del IRABApp, su proceso de cálculo y resultados.
+          p.text-small(numero="2" titulo="IRABApp") Presentación de los datos empleados para la obtención del IRABApp, su proceso de cálculo y resultados.
           
-          p.text-small(numero="3" titulo="Conclusiones:") presentación de las conclusiones según los resultados obtenidos de cada indicador y acordes con los objetivos planteados.
+          p.text-small(numero="3" titulo="Conclusiones") Presentación de las conclusiones según los resultados obtenidos de cada indicador y acordes con los objetivos planteados.
           
-          p.text-small(numero="4" titulo="Anexos:") inclusión de los documentos que se consideren importantes como anexos, para complementar la información obtenida (resultados de laboratorio, catastro de redes, planos de redes de distribución, catastro de usuarios/suscriptores del servicio, datos de los tipos de distribución, descripción de procesos de tratamiento de agua en la planta, descripción de dotación del laboratorio de la planta, certificaciones de trabajadores de la empresa prestadora y los que se consideren necesarios).
+          p.text-small(numero="4" titulo="Anexos") Inclusión de los documentos que se consideren importantes como anexos, para complementar la información obtenida (resultados de laboratorio, catastro de redes, planos de redes de distribución, catastro de usuarios/suscriptores del servicio, datos de los tipos de distribución, descripción de procesos de tratamiento de agua en la planta, descripción de dotación del laboratorio de la planta, certificaciones de trabajadores de la empresa prestadora y los que se consideren necesarios).
       .col-md-5
         figure
          img.mb-4(src='@/assets/curso/tema3/img02.svg' data-aos="fade-left")  
