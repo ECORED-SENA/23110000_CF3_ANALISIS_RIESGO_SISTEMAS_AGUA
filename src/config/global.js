@@ -317,11 +317,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
         nombre: 'Yerson Fabian Zarate Saavedra',
         cargo: 'Diseño web',
         centro:
