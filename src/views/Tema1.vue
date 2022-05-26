@@ -286,8 +286,7 @@
 
         .row.justify-content-center
           .col-12.col-md-11.mb-4
-            p.m-0.mt-4.mt-md-0.ms-3.ms-md-0 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, 
-            p.ms-3.ms-md-0 la estructura de los instructivos de operación y mantenimiento es similar:
+            p.m-0.mt-4.mt-md-0.ms-3.ms-md-0 Al igual que los instructivos de almacenamiento, manejo y transporte de sustancias peligrosas, la estructura de los instructivos de operación y mantenimiento es similar:
           .row.justify-content-center.mt-4
             .col-12.col-md-10.ms-5.ms-md-0
               .row.justify-contet-end

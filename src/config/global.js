@@ -149,12 +149,6 @@ export default {
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=30007',
     },
-    {
-      referencia:
-        'State Compensation Insurance Fund. (s.f.). Hojas de datos de seguridad.',
-      link:
-        'https://content.statefundca.com/safety/safetymeeting/SafetyMeetingArticle.aspx?ArticleID=224',
-    },
   ],
   glosario: [
     {
