@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="29.934" viewBox="0 0 177 29.934">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_55411" data-name="Rectángulo 55411" width="59.563" height="29.934" transform="translate(0 0)" fill="#491079"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_576855" data-name="Grupo 576855" transform="translate(-1207.189 -8382.823)">
+    <circle id="Elipse_5390" data-name="Elipse 5390" cx="5" cy="5" r="5" transform="translate(1374.189 8392.79)" fill="#491079"/>
+    <circle id="Elipse_5386" data-name="Elipse 5386" cx="5" cy="5" r="5" transform="translate(1350.189 8392.79)" fill="#491079"/>
+    <circle id="Elipse_5387" data-name="Elipse 5387" cx="5" cy="5" r="5" transform="translate(1336.189 8392.79)" fill="#491079"/>
+    <circle id="Elipse_5388" data-name="Elipse 5388" cx="5" cy="5" r="5" transform="translate(1322.189 8392.79)" fill="#491079"/>
+    <circle id="Elipse_5389" data-name="Elipse 5389" cx="5" cy="5" r="5" transform="translate(1306.189 8392.79)" fill="#491079"/>
+    <circle id="Elipse_5390-2" data-name="Elipse 5390" cx="5" cy="5" r="5" transform="translate(1276.189 8392.79)" fill="#491079"/>
+    <g id="Grupo_178762" data-name="Grupo 178762" transform="translate(1266.752 8412.757) rotate(180)" clip-path="url(#clip-path)">
+      <path id="Trazado_207251" data-name="Trazado 207251" d="M58.6,12.634,46.924.954A3.1,3.1,0,0,0,42.705.726a2.98,2.98,0,0,0-.117,4.326l5.294,5.3a.948.948,0,0,1-.671,1.619H28.122a3.1,3.1,0,0,0-3.147,2.822,2.983,2.983,0,0,0,2.979,3.143H47.211a.948.948,0,0,1,.671,1.619l-5.174,5.176a3.094,3.094,0,0,0-.229,4.219,2.983,2.983,0,0,0,4.327.117l11.8-11.8a3.274,3.274,0,0,0,0-4.629" fill="#491079"/>
+      <path id="Trazado_207252" data-name="Trazado 207252" d="M16.9,11.966H13.467a2.983,2.983,0,0,0,0,5.965H16.9a2.983,2.983,0,0,0,0-5.965" fill="#491079"/>
+      <path id="Trazado_207253" data-name="Trazado 207253" d="M3.3,11.966H2.982a2.983,2.983,0,0,0,0,5.965H3.3a2.983,2.983,0,0,0,0-5.965" fill="#491079"/>
+    </g>
+  </g>
+</svg>
